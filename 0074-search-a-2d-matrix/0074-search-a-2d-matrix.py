@@ -37,7 +37,7 @@ class Solution:
     
         targetRow = self.getTargetRow(matrix, target)
 
-        if targetRow < 0 or targetRow > len(matrix):
+        if targetRow < 0 or targetRow >= len(matrix):
             return False
 
         if matrix[targetRow][0] <= target <= matrix[targetRow][len(matrix[0])-1]:
