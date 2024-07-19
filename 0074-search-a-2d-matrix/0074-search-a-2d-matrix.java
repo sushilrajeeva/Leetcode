@@ -43,7 +43,7 @@ class Solution {
         if (targetRow < 0 || targetRow >= matrix.length) {
             return false;
         }
-        if (matrix[targetRow][0] <= target && target <= matrix[targetRow][matrix[0].length - 1]) {
+        if(matrix[targetRow][0]<= target && target <= matrix[targetRow][matrix[0].length-1]){
             return isPresentInRow(matrix, target, targetRow);
         }
 
