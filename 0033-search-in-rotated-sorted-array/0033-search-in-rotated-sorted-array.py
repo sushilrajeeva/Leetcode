@@ -1,6 +1,6 @@
 class Solution:
 
-    def isRotated(self, nums: List[int], target: int) -> int:
+    def isRotated(self, nums: List[int]) -> int:
         return nums[0] > nums[-1]
 
     def getBreakIndex(self, nums: List[int]) -> int:
@@ -44,7 +44,7 @@ class Solution:
                 return 0
             return -1
 
-        if self.isRotated:
+        if self.isRotated(nums):
             breakIndex = self.getBreakIndex(nums)
             if nums[breakIndex] == target:
                 return breakIndex
