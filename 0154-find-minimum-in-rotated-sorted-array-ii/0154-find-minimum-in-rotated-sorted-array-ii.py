@@ -5,7 +5,7 @@ class Solution:
         left = 0
         right = len(nums) - 1
 
-        while left < right:
+        while left <= right:
             mid = left + (right - left) // 2
             
             # If the mid element is greater than the right element, the minimum is in the right half
