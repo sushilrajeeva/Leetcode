@@ -32,6 +32,16 @@ class Solution:
 
 
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        if not matrix or not matrix[0]:
+            return False
+    
         targetRow = self.getTargetRow(matrix, target)
-        return self.searchTargetRow(matrix, target, targetRow)
+
+        if targetRow < 0 or targetRow > len(matrix):
+            return False
+
+        if matrix[targetRow][0] <= target <= matrix[targetRow][len(matrix[0])-1]:
+            return self.searchTargetRow(matrix, target, targetRow)
+
+        return False
         
