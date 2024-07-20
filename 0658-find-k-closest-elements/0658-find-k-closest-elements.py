@@ -41,16 +41,16 @@ class Solution:
             return arr
         if k == n:
             return arr
-
+        
         if x <= arr[0]:
             return arr[:k]
-
-        if x >= arr[-1]:
+        
+        if x>= arr[-1]:
             return arr[-k:]
 
         closestIndex = self.closestIndex(arr, x)
 
-        left, right = closestIndex, closestIndex + 1
+        left, right = closestIndex, closestIndex+1
 
         result = []
         heapq.heapify(result)
