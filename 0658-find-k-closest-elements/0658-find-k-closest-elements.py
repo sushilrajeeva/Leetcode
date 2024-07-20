@@ -3,18 +3,20 @@ import heapq
 class Solution:
 
     def isClosest(self, a: int, b: int, x: int) -> bool:
-        if abs(a - x) < abs(b - x) or (abs(a - x) == abs(b - x) and a < b):
+        if abs(a-x) < abs(b-x) or (abs(a-x) == abs(b-x) and a<b):
             return True
         return False
 
     def closestIndex(self, arr: List[int], target: int) -> int:
+
         n = len(arr)
         left = 0
-        right = n - 1
+        right = n-1
 
-        while left <= right:
-            mid = left + (right - left) // 2
+        while left<=right:
+            mid = left + (right-left)//2
 
+            
             if arr[mid] <= target:
                 left = mid + 1
             else:
@@ -25,9 +27,11 @@ class Solution:
         if left >= n:
             return right
 
-        if arr[right] == target or (abs(arr[right] - target) < abs(arr[right + 1] - target)) or (abs(arr[right] - target) == abs(arr[right + 1] - target) and arr[right] < arr[right + 1]):
+        if arr[right] == target or (abs(arr[right]-target) < abs(arr[right+1]-target)) or (abs(arr[right]-target) == abs(arr[right+1]-target) and arr[right] < arr[right+1]):
             return right
-        return left   
+        return left
+
+        
 
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         n = len(arr)
