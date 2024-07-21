@@ -17,15 +17,15 @@ class Queue:
 
     def peak(self) -> int:
         if self.isEmpty():
-            raise IndexError("Queue is Empty")
+            raise IndexError("Can't peak at empty Queue")
         return self.queue[0]
 
-    def enqueue(self, value) -> None:
+    def enqueue(self, value: int) -> None:
         self.queue.append(value)
 
     def dequeue(self) -> int:
         if self.isEmpty():
-            raise IndexError("Queue is Empty")
+            raise IndexError("Can't dequeue an empty Queue")
         return self.queue.popleft()
 
 
@@ -39,35 +39,36 @@ class Solution:
 
         queue = Queue()
         queue.enqueue(root)
-        queue.enqueue(None)
+        queue.enqueue(None) # Marker to mark end of the level
 
         while not queue.isEmpty():
 
-            currentNode = queue.dequeue()
+            currentNode = queue.dequeue() # pop the top of queue element
 
-            # Condition - when current Node is Empty / None
-            if currentNode is None:
+            if currentNode is None: # if we hit a marker check if it is empty queue
+
                 if not queue.isEmpty():
                     result.append([])
-                    queue.enqueue(None)
-
-            # Condition - when current Node is not Empty
+                    queue.enqueue(None) # Add a marker at the end
+            
             else:
-                
-                # check if result is empty or if it is the root node
-                if not result or root == currentNode:
+
+                # if current Node is not empty then check if it is the root node
+                if not result or currentNode == root:
                     result.append([currentNode.val])
                 else:
                     result[-1].append(currentNode.val)
 
+                # Check if there are left and right child, if so then enqueue them to the queue
                 if currentNode.left:
                     queue.enqueue(currentNode.left)
                 if currentNode.right:
                     queue.enqueue(currentNode.right)
 
-
         if not result[-1]:
             result.pop()
 
         return result
+
+
         
