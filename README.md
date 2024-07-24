@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sushilrajeeva/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/sushilrajeeva/Leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 ## Sliding Window
 |  |
 | ------- |
