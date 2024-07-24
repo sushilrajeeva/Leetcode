@@ -20,11 +20,14 @@ class Solution {
         }
 
         TreeNode left = getTargetCopy(original.left, cloned.left, target);
-        TreeNode right = getTargetCopy(original.right, cloned.right, target);
 
         if (left!=null){
             return left;
         }
+        
+        TreeNode right = getTargetCopy(original.right, cloned.right, target);
+
+        
         if (right!=null){
             return right;
         }
