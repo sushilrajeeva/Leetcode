@@ -7,12 +7,13 @@
 class Solution:
 
     def binaryToNumber(self, nums: str) -> int:
-        number = 0
-        power = len(nums)-1
-        for num in nums:
-            number += (int(num)*(2**power))
-            power -= 1
-        return number
+        # number = 0
+        # power = len(nums)-1
+        # for num in nums:
+        #     number += (int(num)*(2**power))
+        #     power -= 1
+        # return number
+        return int(nums, 2)
 
 
     
