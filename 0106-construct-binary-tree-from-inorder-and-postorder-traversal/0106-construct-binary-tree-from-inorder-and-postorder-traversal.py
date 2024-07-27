@@ -15,32 +15,37 @@ class Solution:
         if len(inorder) != len(postorder):
             return None
 
-        inorder_hash: dict = defaultdict()
-        for i in range(len(inorder)):
-            inorder_hash[inorder[i]] = i
+        if not postorder or not inorder:
+            return None
+
+        # Create a dictionary to store the index of each value in inorder traversal for quick lookup
+        inorder_index = {value: index for index, value in enumerate(inorder)}
+
+        # In postorder last node is always the root
         
-        def build(inorder: List[int], inStart: int, inEnd: int, postOrder: List[int], postStart: int, postEnd: int, inorder_hash: dict) -> Optional[TreeNode]:
+        def build(in_left: int, in_right, post_left: int, post_right: int) -> Optional[TreeNode]:
 
-            # Checking if we got valid indexes
-            if inStart > inEnd or postStart > postEnd:
+            if post_left > post_right or in_left > in_right:
                 return None
+            
+            root: Optional[TreeNode] = TreeNode(postorder[post_right])
+            # Root index in the inorder list
+            idx: int = inorder_index[root.val]
 
-            # We know that the last element of the post order is the root
-            root: Optional[TreeNode] = TreeNode(postOrder[postEnd])
-            rootIndex: int = inorder_hash[root.val]
+            # number of elements in the left subtree
+            left_size = idx - in_left
 
-            # Number of nodes left in the left subtree
-            leftRange: int = rootIndex - inStart
+            # Recursively build the left and right subtrees
 
-            # Recursively building the tree
-            root.left = build(inorder, inStart, rootIndex-1, postOrder, postStart, postStart + leftRange -1, inorder_hash)
-            root.right = build(inorder, rootIndex + 1, inEnd, postOrder, postStart + leftRange, postEnd-1, inorder_hash)
+            root.left = build(in_left, idx-1, post_left, post_left+left_size-1)
+            root.right = build(idx+1, in_right, post_left + left_size, post_right-1)
+            
 
             return root
 
-        root: optional[TreeNode] = build(inorder, 0, len(inorder)-1, postorder, 0, len(postorder)-1, inorder_hash)
+        return build(0, len(inorder)-1, 0, len(postorder)-1)
 
-        return root
+
 
 
         
