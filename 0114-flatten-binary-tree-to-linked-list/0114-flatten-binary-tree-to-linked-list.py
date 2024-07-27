@@ -17,15 +17,15 @@ class Solution:
         
         # recursively flatten left and right subtree
         # post order
-        left_tail = self.flatten(root.left)
-        right_tail = self.flatten(root.right)
+        leftTail = self.flatten(root.left)
+        rightTail = self.flatten(root.right)
 
-        if left_tail:
-            left_tail.right = root.right
+        if root.left:
+            leftTail.right = root.right
             root.right = root.left
             root.left = None
 
-        return right_tail if right_tail else left_tail
+        return rightTail if rightTail else leftTail
 
     
 
