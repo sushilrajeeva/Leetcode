@@ -4,9 +4,6 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-from collections import defaultdict
-
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         """
@@ -15,33 +12,29 @@ class Solution:
             PostOrder = Left -> Right -> Root
         """
 
-        inorder_hash: dict = defaultdict()
-        # key = node data and value is the index at which this node exist in inorder
-        for i in range(len(inorder)):
-            inorder_hash[inorder[i]] = i
+        if not preorder or not inorder:
+            return None
 
-        def build(preorder: List[int], preStart: int, preEnd: int, inorder: List[int], inStart: int, inEnd: int, inorder_hash: dict) -> Optional[TreeNode]:
+        # Create a dictionary to store the index of each value in inorder traversal for quick lookup
+        inorder_index = {value: index for index, value in enumerate(inorder)}
 
-            # exit condition
-            if preStart > preEnd or inStart > inEnd:
+        def build(pre_left: int, pre_right: int, in_left: int, in_right: int) -> TreeNode:
+            if pre_left > pre_right or in_left > in_right:
                 return None
-            
-            # constructing root node [first element in preorder is the root]
-            root: Optional[TreeNode] = TreeNode(preorder[preStart])
 
-            rootIndex: int = inorder_hash[root.val]
-            leftRange: int = rootIndex - inStart
+            # The first value in the current preorder is the root
+            root = TreeNode(preorder[pre_left])
 
-            root.left = build(preorder, preStart + 1, preStart + leftRange, inorder, inStart, rootIndex - 1, inorder_hash)
-            root.right = build(preorder, preStart + leftRange + 1, preEnd, inorder, rootIndex + 1, inEnd, inorder_hash)
+            # Finding the index of the root in inorder
+            mid = inorder_index[root.val]
+
+            # calculating left size of the left subtree
+            left_tree_size = mid - in_left
+
+            # Recursively build the left and right subtrees
+            root.left = build(pre_left+1, pre_left + left_tree_size, in_left, mid-1)
+            root.right = build(pre_left + left_tree_size + 1, pre_right, mid + 1, in_right)
 
             return root
 
-        root: Optional[TreeNode] = build(preorder, 0, len(preorder)-1, inorder, 0, len(inorder)-1, inorder_hash)
-
-        return root
-
-        
-
-
-        
+        return build(0, len(preorder)-1, 0, len(inorder)-1)
