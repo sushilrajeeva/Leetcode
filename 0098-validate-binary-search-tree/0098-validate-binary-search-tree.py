@@ -14,15 +14,14 @@ class Solution:
                 return True
 
     
-            
-            if left < root.val and root.val < right:
-                leftOperation = isValid(root.left, left, root.val)
-                if not leftOperation:
-                    return False
-                rightOperation = isValid(root.right, root.val, right)
-                return leftOperation and rightOperation
-            else:
+            if not (left < root.val < right):
                 return False
+                
+            leftOperation = isValid(root.left, left, root.val)
+            if not leftOperation:
+                return False
+            rightOperation = isValid(root.right, root.val, right)
+            return leftOperation and rightOperation
 
         return isValid(root, left, right)
 
