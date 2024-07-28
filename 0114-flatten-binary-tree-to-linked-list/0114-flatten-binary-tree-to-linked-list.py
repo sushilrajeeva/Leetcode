@@ -9,25 +9,20 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
+
         if not root:
-            return
+            return None
 
         if not root.left and not root.right:
             return root
-        
-        # recursively flatten left and right subtree
-        # post order
-        leftTail = self.flatten(root.left)
-        rightTail = self.flatten(root.right)
 
-        if root.left:
-            leftTail.right = root.right
+        left = self.flatten(root.left)
+        right = self.flatten(root.right)
+
+        if left:
+            left.right = root.right
             root.right = root.left
             root.left = None
-
-        return rightTail if rightTail else leftTail
-
-    
-
-    
+        
+        return right if right else left
         
