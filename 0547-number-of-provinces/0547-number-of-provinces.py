@@ -7,7 +7,7 @@ class Solution:
         
         def dfs(node: int) -> None:
             visited[node] = True
-            for neighbor in range(len(isConnected[node])):
+            for neighbor in range(n):
                 if not visited[neighbor] and isConnected[node][neighbor] == 1:
                     dfs(neighbor)
 
