@@ -7,7 +7,7 @@ class Solution:
         
         def dfs(node: int) -> None:
             visited[node] = True
-            for neighbor in range(n):
+            for neighbor in range(n): # we do n because it is a matrix whose rows and column are equal
                 if not visited[neighbor] and isConnected[node][neighbor] == 1:
                     dfs(neighbor)
 
