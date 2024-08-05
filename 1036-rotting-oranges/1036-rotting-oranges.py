@@ -11,16 +11,12 @@ class Solution:
 
         maxTime = 0
 
-        visited: List[List[int]] = [[False] * m for _ in range(n)]
-
-
         freshCount = 0
 
         for i in range(n):
             for j in range(m):
                 if grid[i][j] == 2:
                     q.put((i, j, 0))
-                    visited[i][j] = True
                 elif grid[i][j] == 1:
                     freshCount += 1
 
@@ -32,8 +28,8 @@ class Solution:
 
             for dr, dc in directions:
                 newRow, newCol = row+dr, col+dc
-                if 0 <= newRow < n and 0 <= newCol < m and not visited[newRow][newCol] and grid[newRow][newCol] == 1:
-                    visited[newRow][newCol] = True
+                if 0 <= newRow < n and 0 <= newCol < m and grid[newRow][newCol] == 1:
+                    grid[newRow][newCol] = 2
                     freshCount -= 1
                     q.put((newRow, newCol, time+1))
 
