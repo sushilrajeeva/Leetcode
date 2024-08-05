@@ -9,7 +9,7 @@ class Solution:
         n = len(grid)
         m = len(grid[0])
 
-        maxTime = [0]
+        maxTime = 0
 
         visited: List[List[int]] = [[False] * m for _ in range(n)]
 
@@ -24,36 +24,23 @@ class Solution:
                 elif grid[i][j] == 1:
                     freshCount += 1
 
-
+        directions = [(1,0),(0,1),(-1,0),(0,-1)]
         while not q.empty():
             row, col, time = q.get()
 
-            maxTime[0] = max(maxTime[0], time)
+            maxTime = max(maxTime, time)
 
-            if (0 <= row - 1 < n) and (0 <= col < m) and (not visited[row-1][col]) and grid[row-1][col] == 1: # UP
-                q.put((row-1, col, time + 1))
-                freshCount -= 1
-                visited[row-1][col] = True
-
-            if (0 <= row + 1 < n) and (0 <= col < m) and (not visited[row+1][col]) and grid[row+1][col] == 1: # DOWN
-                q.put((row+1, col, time + 1))
-                freshCount -= 1
-                visited[row+1][col] = True
-
-            if (0 <= row < n) and (0 <= col - 1 < m) and (not visited[row][col-1]) and grid[row][col-1] == 1: # LEFT
-                q.put((row, col-1, time + 1))
-                freshCount -= 1
-                visited[row][col-1] = True
-
-            if (0 <= row < n) and (0 <= col + 1 < m) and (not visited[row][col+1]) and grid[row][col+1] == 1: # RIGHT
-                q.put((row, col+1, time + 1))
-                freshCount -= 1
-                visited[row][col+1] = True
+            for dr, dc in directions:
+                newRow, newCol = row+dr, col+dc
+                if 0 <= newRow < n and 0 <= newCol < m and not visited[newRow][newCol] and grid[newRow][newCol] == 1:
+                    visited[newRow][newCol] = True
+                    freshCount -= 1
+                    q.put((newRow, newCol, time+1))
 
         if freshCount > 0:
             return -1   
 
-        return maxTime[0]
+        return maxTime
 
         
                 
