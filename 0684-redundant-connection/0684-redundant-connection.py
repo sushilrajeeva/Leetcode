@@ -2,7 +2,6 @@ class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
 
         n = len(edges)
-        visited = [False] * (n+1)
 
         adj = [[] for _ in range(n+1)]
 
