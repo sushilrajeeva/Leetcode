@@ -17,7 +17,7 @@ class Solution:
                         return True
                 elif visited[neighbor] and neighbor != parent: return True
 
-            return None
+            return False
 
         for edge in edges:
             visited = [False] * (n+1)
