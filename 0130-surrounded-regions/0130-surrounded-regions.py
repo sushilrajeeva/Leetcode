@@ -22,19 +22,19 @@ class Solution:
         
         # travel top right and bottom right boundry
         for c in range(m):
-            if board[0][c] == "O":
+            if board[0][c] == "O" and not visited[0][c]:
                 dfs(0, c)
 
-            if board[n-1][c] == "O":
+            if board[n-1][c] == "O" and not visited[n-1][c]:
                 dfs(n-1, c)
 
         
         # travel left down and right down boundry
         for r in range(n):
-            if board[r][0] == "O":
+            if board[r][0] == "O" and not visited[r][0]:
                 dfs(r, 0)
 
-            if board[r][m-1] == "O":
+            if board[r][m-1] == "O" and not visited[r][m-1]:
                 dfs(r, m-1)
 
         for i in range(n):
