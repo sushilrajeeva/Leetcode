@@ -8,13 +8,10 @@ class Solution:
 
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
-        count = [0]
-
         def dfsMark(row: int, col: int):
             
             if grid[row][col] == 1 and not visited[row][col]:
                 visited[row][col] = True
-                count[0] += 1
 
                 for r, c in directions:
                     newRow, newCol = row + r, col + c
@@ -39,14 +36,14 @@ class Solution:
             if grid[r][m-1] == 1 and not visited[r][m-1]:
                 dfsMark(r, m-1)
 
-        count[0] = 0
+        count = 0
 
         for i in range(n):
             for j in range(m):
                 if grid[i][j] == 1 and not visited[i][j]:
-                    dfsMark(i, j)
+                    count += 1
         
-        return count[0]
+        return count
 
 
 
