@@ -2,29 +2,31 @@ from queue import Queue
 
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
-        
         n = len(graph)
+        colors = [-1] * n
+       
+        def dfs(node: int, color: int):
 
-        color = [-1] * n # can replace it with 0 or 1 for color
+            if colors[node] == -1:
+                colors[node] = color
+                color = 1 if color == 0 else 0
+                
+                for v in graph[node]:
+                    if not dfs(v, color):
+                        return False
+            elif colors[node] != color:
+                return False
 
-        for start in range(n):
-            if color[start] == -1:  # Only start BFS if the node is uncolored
-                color[start] = 0
-                q = Queue()
-                q.put(start)
+            return True
 
-                while not q.empty():
-                    node = q.get()
-                    c = 1 if color[node] == 0 else 0
-
-                    for v in graph[node]:
-                        if color[v] == -1:
-                            color[v] = c
-                            q.put(v)
-                        elif color[v] == color[node]:
-                            return False
-
+        for i in range(n):
+            if colors[i] == -1:
+                if not dfs(i, 0):
+                    return False
         return True
+
+        
+
                 
             
 
