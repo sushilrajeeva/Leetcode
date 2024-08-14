@@ -328,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0155-min-stack) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Bit Manipulation
 |  |
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0155-min-stack) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Union Find
 |  |
