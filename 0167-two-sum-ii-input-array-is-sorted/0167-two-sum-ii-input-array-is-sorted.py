@@ -3,6 +3,10 @@ class Solution:
         
         n: int = len(numbers)
 
+        # checking first and last
+        if numbers[0] + numbers[1] == target: return [1, 2]
+        if numbers[-1] + numbers[-2] == target: return [n-1, n]
+
         left: int = 0
         right: int = n-1
 
