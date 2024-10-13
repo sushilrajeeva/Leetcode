@@ -6,23 +6,22 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        
+        if not root: return True
+        left: int = float("-inf")
+        right: int = float("inf")
 
-        left = float("-inf")
-        right = float("inf")
-        def isValid(root: Optional[TreeNode], left:int , right: int) -> bool:
-            if not root:
-                return True
+        def isBST(root: Optional[TreeNode], left: int, right: int) -> bool:
+            if not root: return True
 
-    
-            if not (left < root.val < right):
-                return False
-                
-            leftOperation = isValid(root.left, left, root.val)
-            if not leftOperation:
-                return False
-            rightOperation = isValid(root.right, root.val, right)
+            if not (left < root.val < right): return False
+
+            leftOperation: bool = isBST(root.left, left, root.val)
+
+            if not leftOperation: return False
+
+            rightOperation: bool = isBST(root.right, root.val, right)
+
             return leftOperation and rightOperation
 
-        return isValid(root, left, right)
-
-        
+        return isBST(root, left, right)
