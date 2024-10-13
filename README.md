@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/sushilrajeeva/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/sushilrajeeva/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/sushilrajeeva/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
 | [1765-merge-in-between-linked-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/1765-merge-in-between-linked-lists) |
 ## Recursion
 |  |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0155-min-stack) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Union Find
@@ -443,4 +446,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
