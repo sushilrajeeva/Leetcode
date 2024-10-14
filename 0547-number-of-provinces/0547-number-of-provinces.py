@@ -1,15 +1,16 @@
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         
-        n = len(isConnected)
-        count = 0
-        visited = [False] * n
-        
-        def dfs(node: int) -> None:
+        n: int = len(isConnected)
+        visited: List[bool] = [False] * n
+
+        def dfs(node: int):
             visited[node] = True
-            for neighbor in range(n): # we do n because it is a matrix whose rows and column are equal
+            for neighbor in range(n):
                 if not visited[neighbor] and isConnected[node][neighbor] == 1:
                     dfs(neighbor)
+        
+        count: int = 0
 
         for i in range(n):
             if not visited[i]:
