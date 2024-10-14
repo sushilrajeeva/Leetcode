@@ -1,9 +1,9 @@
 from typing import *
 from collections import defaultdict
 
-class DoublyLinkedList:
-    
-    def __init__(self, value: List[int], previous: Optional['DoublyLinkedList'] = None, next: Optional['DoublyLinkedList'] = None):
+class Node:
+
+    def __init__(self, value: List[int], previous: 'Node' = None, next: 'Node' = None):
         self.value = value
         self.previous = previous
         self.next = next
@@ -12,17 +12,19 @@ class LRUCache:
 
     def __init__(self, capacity: int):
         self.capacity = capacity
-        self.map = defaultdict(DoublyLinkedList)
-
-        self.head: DoublyLinkedList = DoublyLinkedList([-1, -1])
-        self.tail: DoublyLinkedList = DoublyLinkedList([-1, -1])
+        self.map = defaultdict(Node)
+        self.head = Node([-1, -1])
+        self.tail = Node([-1, -1])
 
         self.head.next = self.tail
         self.tail.previous = self.head
 
-    def deleteNode(self, node: DoublyLinkedList) -> None:
-        prev: DoublyLinkedList = node.previous
-        next: DoublyLinkedList = node.next
+    def deleteNode(self, node: Node) -> None:
+
+        if not node: return None
+
+        prev: Node = node.previous
+        next: Node = node.next
 
         prev.next = next
         next.previous = prev
@@ -30,52 +32,53 @@ class LRUCache:
         node.next = None
         node.previous = None
 
-        return None
+    
+    def insertNode(self, node: Node) -> None:
 
-    def insertAfterHead(self, node: DoublyLinkedList) -> None:
+        if not node: return None
 
-        next: DoublyLinkedList = self.head.next
-        self.head.next = node
-        node.next = next
-        node.previous = self.head
-        next.previous = node
+        first: Node = self.head
+        second: Node = self.head.next
 
-        return None
+        first.next = node
+        node.previous = first
+
+        second.previous = node
+        node.next = second
 
     def get(self, key: int) -> int:
 
-        if not self.map or not (key in self.map):
+        # edge case - key not present
+        if key not in self.map:
             return -1
 
-        node: DoublyLinkedList = self.map.get(key)
-
+        node: Node = self.map.get(key)
         self.deleteNode(node)
-
-        self.insertAfterHead(node)
+        self.insertNode(node)
 
         return node.value[1]
         
 
     def put(self, key: int, value: int) -> None:
-        
-        if self.map and key in self.map:
-            node: DoublyLinkedList = self.map.get(key)
+
+        # Edge case - if capacity is full
+        if key in self.map:
+            # Update the existing node and move it to the front
+            node = self.map[key]
             node.value[1] = value
             self.deleteNode(node)
-            self.insertAfterHead(node)
-        
+            self.insertNode(node)
         else:
             if len(self.map) == self.capacity:
-                leastNode: DoublyLinkedList = self.tail.previous
-                del self.map[leastNode.value[0]]
-                self.deleteNode(leastNode)
-            newNode: DoublyLinkedList = DoublyLinkedList([key, value])
-            self.map[key] = newNode
-            self.insertAfterHead(newNode)
-
-        return None
-
-
+                # Remove the least recently used node (before tail)
+                lru_node = self.tail.previous
+                self.deleteNode(lru_node)
+                del self.map[lru_node.value[0]]  # Remove from map
+            # Insert new node
+            new_node = Node([key, value])
+            self.map[key] = new_node
+            self.insertNode(new_node)
+        
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
