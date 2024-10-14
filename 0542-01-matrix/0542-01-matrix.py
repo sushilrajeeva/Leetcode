@@ -20,7 +20,6 @@ class Solution:
                 if mat[i][j] == 0:
                     q.put((i, j, 0))
                     visited[i][j] = True
-                    dist[i][j] = 0
         
         while not q.empty():
             row, col, distance = q.get()
