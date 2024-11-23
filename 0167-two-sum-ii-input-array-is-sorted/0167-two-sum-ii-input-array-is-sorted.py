@@ -6,7 +6,7 @@ class Solution:
 
         # Edge case 1: I find my solution in first two , last two or first and last position , avoiding unnecessary computaiton 
 
-        pairs = [[0, 1], [0, -1], [-1, -2]]
+        pairs = [[0, 1], [-1, -2]]
         n = len(numbers)
 
         for pair in pairs:
