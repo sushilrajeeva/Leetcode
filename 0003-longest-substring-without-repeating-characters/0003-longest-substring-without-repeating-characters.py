@@ -15,7 +15,7 @@ class Solution:
         right: int = 0
 
         while right < n:
-            if not s[right] in seen:
+            if s[right] not in seen:
                 seen.add(s[right])
                 right += 1
             else:
