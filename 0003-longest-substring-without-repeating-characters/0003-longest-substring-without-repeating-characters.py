@@ -9,7 +9,7 @@ class Solution:
         r: int = 0
         maxLen: int = 0
 
-        seen: set() = set()
+        seen: set = set()
 
         left: int = 0
         n: int = len(s)
