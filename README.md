@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1646-kth-missing-positive-number](https://github.com/sushilrajeeva/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Hash Table
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -475,4 +477,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
+## Prefix Sum
+|  |
+| ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
