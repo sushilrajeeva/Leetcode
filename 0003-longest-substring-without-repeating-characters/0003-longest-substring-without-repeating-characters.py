@@ -1,8 +1,5 @@
 class Solution:
 
-    def getCharPos(self, s: str) -> int:
-        return ord(s) - 97
-
     def lengthOfLongestSubstring(self, s: str) -> int:
 
         maxLen: int = 0
