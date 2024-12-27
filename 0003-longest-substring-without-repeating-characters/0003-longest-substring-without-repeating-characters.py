@@ -5,8 +5,6 @@ class Solution:
 
     def lengthOfLongestSubstring(self, s: str) -> int:
 
-        l: int = 0
-        r: int = 0
         maxLen: int = 0
 
         seen: set = set()
