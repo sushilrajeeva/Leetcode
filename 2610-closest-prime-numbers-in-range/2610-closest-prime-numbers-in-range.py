@@ -1,4 +1,5 @@
-import heapq
+from math import sqrt
+from typing import List
 class Solution:
 
     def getPrimes(self, left: int, right: int) -> List[int]:
