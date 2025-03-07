@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0441-arranging-coins](https://github.com/sushilrajeeva/Leetcode/tree/master/0441-arranging-coins) |
+| [2610-closest-prime-numbers-in-range](https://github.com/sushilrajeeva/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 ## Linked List
 |  |
 | ------- |
@@ -487,4 +488,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+## Number Theory
+|  |
+| ------- |
+| [2610-closest-prime-numbers-in-range](https://github.com/sushilrajeeva/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
