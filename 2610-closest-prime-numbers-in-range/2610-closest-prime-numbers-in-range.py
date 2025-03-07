@@ -9,7 +9,7 @@ class Solution:
         
         for i in range(2, int(sqrt(right)) + 1):
             if buffer[i]:
-                for j in range(i+i, right + 1, i):
+                for j in range(2*i, right + 1, i):
                     buffer[j] = False
 
         return [i for i in range(left, right + 1) if buffer[i]]
