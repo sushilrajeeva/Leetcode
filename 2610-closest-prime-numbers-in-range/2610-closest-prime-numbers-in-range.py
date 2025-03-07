@@ -33,6 +33,4 @@ class Solution:
                 minDiff = diff
                 num1 = primes[i-1]
                 num2 = primes[i]
-
-
         return [num1, num2]
