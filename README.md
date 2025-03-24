@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3430-count-days-without-meetings](https://github.com/sushilrajeeva/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3643-zero-array-transformation-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Hash Table
 |  |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
+| [3430-count-days-without-meetings](https://github.com/sushilrajeeva/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Sliding Window
 |  |
 | ------- |
