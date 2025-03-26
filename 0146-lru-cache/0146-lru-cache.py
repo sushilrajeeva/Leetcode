@@ -93,22 +93,18 @@ class LRUCache:
 
     def put(self, key: int, value: int) -> None:
         if key in self.memo:
-            # Update existing node and move it to the head.
             node = self.memo[key]
             self.del_node(node)
             node.value = (key, value)
             self.add_node(node)
         else:
-            # If at capacity, remove the least recently used node.
             if len(self.memo) == self.capacity:
                 to_del: Node = self.tail.prev
                 self.del_node(to_del)
                 self.memo.pop(to_del.value[0])
-            # Create a new node and add it to the head.
-            node = Node((key, value))
+            node: Node = Node((key, value))
             self.add_node(node)
             self.memo[key] = node
-
         
         
 
