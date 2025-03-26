@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/sushilrajeeva/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
+| [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [1765-merge-in-between-linked-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/1765-merge-in-between-linked-lists) |
 ## Recursion
 |  |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/sushilrajeeva/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sushilrajeeva/Leetcode/tree/master/0733-flood-fill) |
+| [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0801-is-graph-bipartite](https://github.com/sushilrajeeva/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sushilrajeeva/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
+| [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Prefix Sum
 |  |
 | ------- |
