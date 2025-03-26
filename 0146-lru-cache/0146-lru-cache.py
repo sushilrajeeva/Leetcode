@@ -1,84 +1,117 @@
-from typing import *
-from collections import defaultdict
-
 class Node:
-
-    def __init__(self, value: List[int], previous: 'Node' = None, next: 'Node' = None):
+    def __init__(self, value: int = 0, prev = None, next = None):
         self.value = value
-        self.previous = previous
+        self.prev = prev
         self.next = next
 
 class LRUCache:
+    # cap = 2
+    # head: Node = Node(-1)
+    # tail: Node = Node(-1)
+
+    # head.next = tail
+    # tail.prev = head
+
+    # head <=> (2, 2) <=> (1, 1) <=> tail
+
+    # add(node: Node):
+    #     next: Node = head.next
+    #     head.next = node
+    #     node.prev = head
+    #     node.next = next
+    #     next.prev = node
+
+    #     dict[key] = node 
+
+    # del_node(node:Node) -> Node:
+    #     prev_node = node.prev
+    #     next_node = node.next
+    #     prev_node.next = next_node
+    #     next_node.prev = prev_node
+    #     node.next = None
+    #     node.prev = None
+    #     return node
+
+    # get(key) -> int:
+    #     if key not in dict: return -1
+    #     key, val = dict[key].val
+    #     node: Node = del_node(dict[key])
+    #     add(node)
+
+    #     return val
+
+    # put(key, val):
+    #     if length == capacity:
+    #         to_del: Node = tail.prev
+    #         del_node(to_del)
+    #         dict.remove(key)
+    #     node: Node = Node((key, val))
+    #     add(node)
+    #     dict[key] = node
+        
+
+    # dict = { 
+    #             1: <address>
+    #             2: <address>
+    #          }
 
     def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.map = defaultdict(Node)
-        self.head = Node([-1, -1])
-        self.tail = Node([-1, -1])
-
+        self.capacity: int = capacity
+        self.head: Node = Node((-1, -1))
+        self.tail: Node = Node((-1, -1))
         self.head.next = self.tail
-        self.tail.previous = self.head
+        self.tail.prev = self.head
+        self.memo: dict = {}
 
-    def deleteNode(self, node: Node) -> None:
-
-        if not node: return None
-
-        prev: Node = node.previous
-        next: Node = node.next
-
-        prev.next = next
-        next.previous = prev
-
+    def del_node(self, node: Node) -> Node:
+        prev_node: Node = node.prev
+        next_node: Node = node.next
+        prev_node.next = next_node
+        next_node.prev = prev_node
         node.next = None
-        node.previous = None
+        node.prev = None
+        return node
 
-    
-    def insertNode(self, node: Node) -> None:
-
-        if not node: return None
-
-        first: Node = self.head
-        second: Node = self.head.next
-
-        first.next = node
-        node.previous = first
-
-        second.previous = node
-        node.next = second
+    def add_node(self, node: Node) -> Node:
+        next: Node = self.head.next
+        self.head.next = node
+        node.prev = self.head
+        node.next = next
+        next.prev = node
+        return node
+        
 
     def get(self, key: int) -> int:
-
-        # edge case - key not present
-        if key not in self.map:
-            return -1
-
-        node: Node = self.map.get(key)
-        self.deleteNode(node)
-        self.insertNode(node)
+        if key not in self.memo: return -1
+        node: Node = self.memo[key]
+        self.del_node(node)
+        # node.value = (key, value)
+        self.add_node(node)
 
         return node.value[1]
         
 
     def put(self, key: int, value: int) -> None:
-
-        # Edge case - if capacity is full
-        if key in self.map:
-            # Update the existing node and move it to the front
-            node = self.map[key]
-            node.value[1] = value
-            self.deleteNode(node)
-            self.insertNode(node)
+        if key in self.memo:
+            # Update existing node and move it to the head.
+            node = self.memo[key]
+            self.del_node(node)
+            node.value = (key, value)
+            self.add_node(node)
         else:
-            if len(self.map) == self.capacity:
-                # Remove the least recently used node (before tail)
-                lru_node = self.tail.previous
-                self.deleteNode(lru_node)
-                del self.map[lru_node.value[0]]  # Remove from map
-            # Insert new node
-            new_node = Node([key, value])
-            self.map[key] = new_node
-            self.insertNode(new_node)
+            # If at capacity, remove the least recently used node.
+            if len(self.memo) == self.capacity:
+                to_del: Node = self.tail.prev
+                self.del_node(to_del)
+                self.memo.pop(to_del.value[0])
+            # Create a new node and add it to the head.
+            node = Node((key, value))
+            self.add_node(node)
+            self.memo[key] = node
+
         
+        
+
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
