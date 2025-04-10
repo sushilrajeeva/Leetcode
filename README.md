@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/sushilrajeeva/Leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/sushilrajeeva/Leetcode/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0275-h-index-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/sushilrajeeva/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/sushilrajeeva/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sushilrajeeva/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/sushilrajeeva/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0275-h-index-ii) |
 | [0278-first-bad-version](https://github.com/sushilrajeeva/Leetcode/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -135,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0002-add-two-numbers) |
 | [0066-plus-one](https://github.com/sushilrajeeva/Leetcode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/sushilrajeeva/Leetcode/tree/master/0069-sqrtx) |
+| [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/sushilrajeeva/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
@@ -368,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/sushilrajeeva/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/sushilrajeeva/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
@@ -415,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/sushilrajeeva/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 ## Merge Sort
