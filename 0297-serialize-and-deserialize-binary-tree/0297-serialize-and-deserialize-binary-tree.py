@@ -14,26 +14,19 @@ class Codec:
         :rtype: str
         """
 
-        # i will perform a preorder traversal and as i go i store the node in a list 
-        # if i encounter None then i will store N in its place
-        # at the end i will return the string by coverting the list to string by using join and using ',' as a delimiter
+        def helper(root) -> str:
+            if not root: return "_"
 
-        string: List[str] = []
+            left = helper(root.left)
+            right = helper(root.right)
+            return str(root.val) + "," + left + "," + right
 
-        def preorder(root: Optional[TreeNode]) -> None:
+        res = ""
+        res = helper(root)
 
-            if not root:
-                string.append("N")
-                return
+        print("res", res)
+        return res
 
-            string.append(str(root.val))
-            preorder(root.left)
-            preorder(root.right)
-            return
-
-        preorder(root)
-
-        return ",".join(string)
         
 
     def deserialize(self, data):
@@ -43,31 +36,23 @@ class Codec:
         :rtype: TreeNode
         """
 
-        # I know that the seralization is in inorder and where ever N is present that means it is end of the node
-        # i will convert string to list by splitting it by ','
-        arr: List[str] = data.split(",")
-        # will create a global index counter to keep track of which node i am currently in
-        self.i = 0
-        
-        # Recursively construct the Binary Tree and return the root
-        def dfs() -> Optional[TreeNode]:
+        decode_list = data.split(",")
 
-            # if i reach N then i must return None
-            if arr[self.i] == "N":
-                self.i += 1
-                return None
+        print("decode_list", decode_list)
+
+        def helper(index):
+            if decode_list[index] == "_":
+                return None, index + 1
             
-            # if arr[self.i] != 'N' then i must create a node of value arr[self.i]
-            node: Optional[TreeNode] = TreeNode(arr[self.i])
-            self.i += 1
+            node = TreeNode(decode_list[index])
 
-            # recursively use this function to build the left and right subtrees -> self.i is global so it takes care of counter or index position of the arr
-            node.left = dfs()
-            node.right = dfs()
+            node.left, next_index = helper(index + 1)
+            node.right, next_index = helper(next_index)
 
-            return node
+            return node, next_index
 
-        return dfs()
+        root, next_index = helper(0)
+        return root
         
 
 # Your Codec object will be instantiated and called as such:
