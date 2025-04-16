@@ -1,21 +1,18 @@
 class Solution:
+
+    def getCharVal(self, ele: str) -> int:
+        return ord(ele) - 97
+
     def firstUniqChar(self, s: str) -> int:
+        temp = [0] * 26
 
-        n: int = len(s)
-        if n == 1: return 0
-        buffer: List[int] = [0]*26
-        hasDuplicate: bool = False
-
-        for i in range(n):
-            key: int = ord(s[i]) - 97
-            buffer[key] += 1
-            if buffer[key] > 1: hasDuplicate = True
+        for ele in s:
+            temp[self.getCharVal(ele)] += 1
         
-        if not hasDuplicate: return 0
+        
+        for index in range(len(s)):
+            if temp[self.getCharVal(s[index])] == 1: return index
 
-        for i in range(n):
-            key: int = ord(s[i]) - 97
-            if buffer[key] == 1: return i
         return -1
 
-
+        
