@@ -1,44 +1,50 @@
 class Solution:
 
-    def isNeg(self, numerator, denominator) -> bool:
+    def isNegative(self, numerator: int, denominator: int) -> bool:
         if numerator < 0 and denominator < 0: return False
         if numerator < 0 or denominator < 0: return True
         return False
 
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
 
-        print("numerator:", numerator, "denominator:", denominator)
-
         if numerator == 0: return "0"
 
-        sign = "-" if self.isNeg(numerator, denominator) else ""
+        sign: str = "-" if self.isNegative(numerator, denominator) else ""
+
         n, d = abs(numerator), abs(denominator)
 
-        first_part = n // d
-        rem = n % d
+        first_part: int = n // d
+        rem: int = n % d
 
         if rem == 0:
             return sign + str(first_part)
 
-        res = [sign + str(first_part), "."]
+        res = [sign + str(first_part) + "." ]
         seen = {}
 
-        # Long division loop
-        while rem:
-            # If this remainder was seen, we have a repeating cycle
+        15/2
+        ["7."]
+        1
+        {1: 1}
+
+        while rem !=0:
+
             if rem in seen:
-                idx = seen[rem]
+                idx: int = seen.get(rem)
                 res.insert(idx, "(")
                 res.append(")")
                 break
-            
-            # Record where this remainder first appears
+
             seen[rem] = len(res)
+            rem = rem * 10
+            temp = (rem) // d
             
-            rem *= 10
-            digit = rem // d
-            res.append(str(digit))
-            rem %= d
-        
+            res.append(str(temp))
+            rem = rem % d
+
         return "".join(res)
 
+
+
+
+        
