@@ -22,10 +22,6 @@ class Solution:
         res = [sign + str(first_part) + "." ]
         seen = {}
 
-        15/2
-        ["7."]
-        1
-        {1: 1}
 
         while rem !=0:
 
