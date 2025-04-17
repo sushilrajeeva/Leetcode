@@ -4,6 +4,8 @@ class Solution:
         return ord(charecter) - 97
 
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+
+        if len(ransomNote) > len(magazine): return False
         
         temp = [0] * 26
 
