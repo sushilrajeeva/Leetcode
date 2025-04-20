@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/sushilrajeeva/Leetcode/tree/master/0733-flood-fill) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sushilrajeeva/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0792-binary-search) |
+| [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0441-arranging-coins](https://github.com/sushilrajeeva/Leetcode/tree/master/0441-arranging-coins) |
+| [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1585-the-kth-factor-of-n](https://github.com/sushilrajeeva/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [2050-count-good-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -386,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
+| [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 ## Sorting
 |  |
 | ------- |
