@@ -9,14 +9,14 @@ class Solution {
         
         for (int i = 2; i <= n; i++) {
             // Single-digit decode: consider character s[i-1]
-            char c1 = s.charAt(i - 1);
-            if (c1 != '0') {
+            char cur = s.charAt(i - 1);
+            if (cur != '0') {
                 dp[i] += dp[i - 1];
             }
             
             // Two-digit decode: consider substring s[i-2..i-1]
-            char c0 = s.charAt(i - 2);
-            int twoDigit = (c0 - '0') * 10 + (c1 - '0');
+            char prev = s.charAt(i - 2);
+            int twoDigit = (prev - '0') * 10 + (cur - '0');
             if (twoDigit >= 10 && twoDigit <= 26) {
                 dp[i] += dp[i - 2];
             }
