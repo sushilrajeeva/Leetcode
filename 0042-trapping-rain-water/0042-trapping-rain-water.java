@@ -10,6 +10,7 @@ class Solution {
         // Computing prefixArr and suffixArr
         int tempLeft = 0;
         int tempRight = 0;
+        int water = 0;
         for (int i = 0; i < n; i++) {
             tempLeft = Math.max(tempLeft, height[i]);
             tempRight = Math.max(tempRight, height[n-i-1]);
@@ -17,7 +18,7 @@ class Solution {
             suffixArr[n-i-1] = tempRight;
         }
 
-        int water = 0;
+        
 
         for (int i = 0; i < n; i++) {
             int computation = Math.min(prefixArr[i], suffixArr[i]) - height[i];
