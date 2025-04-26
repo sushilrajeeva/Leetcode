@@ -1,53 +1,55 @@
 class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int m = matrix.length;
+        int n = matrix[0].length;
 
-    public int getTargetRow(int[][] matrix, int target){
-        int left = 0;
-        int right = matrix.length-1;
-        while(left<=right){
-            int mid = left + (right-left)/2;
-            if(matrix[mid][0]==target){
-                return mid;
-            }
-            if(matrix[mid][0]>target){
-                right = mid - 1;
-            }else{
-                left = mid + 1;
+        int low = 0;
+        int high = m - 1;
+
+        while (low <= high) {
+            int mid = getMidVal(low, high);
+            int a = matrix[mid][0];
+            int b = matrix[mid][n-1];
+            if (target == a || target == b) {
+                return true;
+            } else if (a < target && target < b) {
+                return binarySearch(matrix[mid], target);
+            } else if (target < a) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
 
-        return right;
+        return false;
     }
 
-    public boolean isPresentInRow(int[][] matrix, int target, int row){
-        int left = 0;
-        int right = matrix[0].length-1;
-        while(left<=right){
-            int mid = left + (right-left)/2;
-            if(matrix[row][mid]==target){
+    public int getMidVal(int low, int high) {
+        return (int) (low + (high - low)/2);
+    }
+
+    public boolean binarySearch(int[] arr, int target) {
+        int n = arr.length;
+        int low = 0;
+        int high = n - 1;
+
+        while (low <= high) {
+            int mid = getMidVal(low, high);
+
+            if (arr[mid] == target) {
                 return true;
             }
-            if(matrix[row][mid]>target){
-                right = mid - 1;
-            }else{
-                left = mid + 1;
+
+            if (arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
         }
+
         return false;
     }
 
-    public boolean searchMatrix(int[][] matrix, int target) {
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
-            return false; // Handle empty matrix
-        }
-        int targetRow = getTargetRow(matrix, target);
-        if (targetRow < 0 || targetRow >= matrix.length) {
-            return false;
-        }
-        if(matrix[targetRow][0]<= target && target <= matrix[targetRow][matrix[0].length-1]){
-            return isPresentInRow(matrix, target, targetRow);
-        }
 
-        return false;
-    
-    }
+
 }
