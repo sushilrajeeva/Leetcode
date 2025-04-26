@@ -5,6 +5,7 @@ class Solution {
         int [] dp = new int[n+1];
         dp[0] = 1;
         dp[1] = (s.charAt(0) == '0') ? 0 : 1;
+        if (dp[1] == 0) return 0; 
         
         for (int i = 2; i <= n; i++) {
             // Single-digit decode: consider character s[i-1]
