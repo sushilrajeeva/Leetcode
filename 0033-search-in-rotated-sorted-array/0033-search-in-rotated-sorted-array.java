@@ -2,6 +2,7 @@ class Solution {
     public int search(int[] nums, int target) {
         // checking if array is shifted or not
         int n = nums.length;
+        if (n == 0) return -1;
         if (n == 1) {
             return nums[0] == target ? 0 : -1;
         }
@@ -17,7 +18,7 @@ class Solution {
             return res;
         }
 
-        if (nums[0] < nums[n-1]) {
+        if (!(nums[0] > nums[n-1])) {
             return binarySearch(nums, 0, n-1, target);
         }
 
@@ -28,9 +29,9 @@ class Solution {
             // I have to check where the shift happens
             int mid = (int)(left + (right - left)/2);
 
-            if (mid > 0 && mid < n - 1 && nums[mid - 1] <= nums[mid] && nums[mid+1] < nums[mid]){
-                int op1 = binarySearch(nums, 0, mid, target);
-                int op2 = binarySearch(nums, mid+1, n-1, target);
+            if (mid > 0 && mid < n - 1 && nums[mid - 1] > nums[mid] && nums[mid] < nums[mid + 1]){
+                int op1 = binarySearch(nums, 0, mid-1, target);
+                int op2 = binarySearch(nums, mid, n-1, target);
 
                 return op1 != -1 ? op1 : op2;
             }
