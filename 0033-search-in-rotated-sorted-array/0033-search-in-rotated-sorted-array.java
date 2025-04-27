@@ -35,7 +35,7 @@ class Solution {
                 return op1 != -1 ? op1 : op2;
             }
 
-            if (mid < n-1 && nums[mid] > nums[n-1]) {
+            if (nums[mid] > nums[n-1]) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
