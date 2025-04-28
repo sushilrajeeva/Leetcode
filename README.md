@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0394-decode-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0394-decode-string) |
 | [2050-count-good-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/2050-count-good-numbers) |
 ## Divide and Conquer
 |  |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -514,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/sushilrajeeva/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
