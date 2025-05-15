@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sushilrajeeva/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3430-count-days-without-meetings](https://github.com/sushilrajeeva/Leetcode/tree/master/3430-count-days-without-meetings) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Tree
 |  |
 | ------- |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Sorting
 |  |
 | ------- |
@@ -532,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Backtracking
 |  |
