@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sushilrajeeva/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1585-the-kth-factor-of-n](https://github.com/sushilrajeeva/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [2050-count-good-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Sorting
 |  |
