@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/sushilrajeeva/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
+| [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/sushilrajeeva/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
@@ -416,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
 ## Greedy
 |  |
 | ------- |
@@ -664,4 +666,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
