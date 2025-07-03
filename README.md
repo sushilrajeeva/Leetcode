@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/sushilrajeeva/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
 ## Greedy
 |  |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
