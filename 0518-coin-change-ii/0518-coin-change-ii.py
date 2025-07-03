@@ -19,4 +19,8 @@ class Solution:
 
             return memo[i][amount]
 
-        return numberOfWays(0, amount)
+        
+
+        res = numberOfWays(0, amount)
+        print("memo", memo)
+        return res
