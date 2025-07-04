@@ -1,22 +1,27 @@
 class Solution:
+
+    def build_adj_list(self,n, edges: List[List[int]]) -> List[List[int]]:
+        graph = [[] for _ in range(n)]
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+        return graph
+
     def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
         # Build an undirected graph
-        adj = [[] for _ in range(n)]
-        for u, v in edges:
-            adj[u].append(v)
-            adj[v].append(u)
+        adj: List[List[int]] = self.build_adj_list(n, edges)
         
         visited = [False] * n
         
-        def dfs(node: int, component: List[int]):
+        def dfs(node: int, component: Set[int]):
             """Perform DFS to collect nodes in the connected component."""
             visited[node] = True
-            component.append(node)
+            component.add(node)
             for neighbor in adj[node]:
                 if not visited[neighbor]:
                     dfs(neighbor, component)
         
-        def isComplete(component: List[int]) -> bool:
+        def isComplete(component: Set[int]) -> bool:
             """Check if the given component is complete."""
             k = len(component)
             # A single node is complete by definition
@@ -36,7 +41,7 @@ class Solution:
         complete_components = 0
         for i in range(n):
             if not visited[i]:
-                component = []
+                component = set()
                 dfs(i, component)
                 if isComplete(component):
                     complete_components += 1
