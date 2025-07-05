@@ -1,21 +1,21 @@
 class Solution:
 
-    def build_graph(self, equations: List[List[str]], values: List[float]) -> Dict[str, List[Tuple[str, float]]]:
-        graph: Dict[str, List[Tuple[str, float]]] = defaultdict(list)
+    def build_graph(self, equations: List[List[str]], values: List[float]) -> Dict[str, Set[Tuple[str, float]]]:
+        graph: Dict[str, Set[Tuple[str, float]]] = defaultdict(set)
         n: int = len(equations)
 
         for i in range(n):
             source: str = equations[i][0]
             destination: str = equations[i][1]
             rate: int = values[i]
-            graph[source].append((destination, rate))
-            graph[destination].append((source, (1.0/rate)))
+            graph[source].add((destination, rate))
+            graph[destination].add((source, (1.0/rate)))
         return graph
 
 
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
 
-        graph: Dict[str, List[Tuple[str, int]]] = self.build_graph(equations, values)
+        graph: Dict[str, List[Set[str, int]]] = self.build_graph(equations, values)
         results: List[float] = []
 
         def dfs(source: str, destination: str, value: float, visited: Set[str]) -> float:
