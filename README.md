@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/sushilrajeeva/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/sushilrajeeva/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/sushilrajeeva/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0261-graph-valid-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0261-graph-valid-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
@@ -345,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0261-graph-valid-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/sushilrajeeva/Leetcode/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
@@ -552,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0394-decode-string) |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
@@ -574,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/sushilrajeeva/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0261-graph-valid-tree) |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/sushilrajeeva/Leetcode/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/sushilrajeeva/Leetcode/tree/master/0801-is-graph-bipartite) |
@@ -584,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Design
@@ -601,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/sushilrajeeva/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sushilrajeeva/Leetcode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0261-graph-valid-tree) |
+| [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/sushilrajeeva/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
