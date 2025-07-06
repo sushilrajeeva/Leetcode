@@ -1,49 +1,41 @@
-from queue import Queue
-from typing import *
-
+from collections import *
 class Solution:
+
+    def isValidMove(self, grid: List[List[int]], row, col) -> bool:
+        return 0 <= row < len(grid) and 0 <= col < len(grid[0]) and grid[row][col] == 1
+
     def orangesRotting(self, grid: List[List[int]]) -> int:
+        directions: List[Tuple[int, int]] = [(1,0),(0,1),(-1,0),(0,-1)]
+        max_time: int = 0
+        m: int = len(grid)
+        n: int = len(grid[0])
+        queue = deque([])
+        fresh_count: int = 0
 
-        
-        q: Queue = Queue()
-        n = len(grid)
-        m = len(grid[0])
-
-        maxTime = 0
-
-        freshCount = 0
-
-        for i in range(n):
-            for j in range(m):
+        # create a queue of rotten oranges
+        for i in range(m):
+            for j in range(n):
                 if grid[i][j] == 2:
-                    q.put((i, j, 0))
+                    queue.append((i, j, 0))
                 elif grid[i][j] == 1:
-                    freshCount += 1
+                    fresh_count += 1
 
-        directions = [(1,0),(0,1),(-1,0),(0,-1)]
-        while not q.empty():
-            row, col, time = q.get()
+        while len(queue) > 0:
+            row, col, time = queue.popleft()
+            max_time = max(max_time, time)
 
-            maxTime = max(maxTime, time)
-
-            for dr, dc in directions:
-                newRow, newCol = row+dr, col+dc
-                if 0 <= newRow < n and 0 <= newCol < m and grid[newRow][newCol] == 1:
-                    grid[newRow][newCol] = 2
-                    freshCount -= 1
-                    q.put((newRow, newCol, time+1))
-
-        if freshCount > 0:
-            return -1   
-
-        return maxTime
-
+            for _row, _col in directions:
+                r = row + _row
+                c = col + _col
+                if self.isValidMove(grid, r, c):
+                    queue.append((r, c, time + 1))
+                    grid[r][c] = 2
+                    fresh_count -= 1
         
-                
-
-
+        if fresh_count > 0:
+            return -1
         
-
+        return max_time
 
 
 
