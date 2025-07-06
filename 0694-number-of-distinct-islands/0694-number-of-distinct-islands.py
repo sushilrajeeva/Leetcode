@@ -9,29 +9,31 @@ class Solution:
         n: int = len(grid[0])
 
         visited: List[List[bool]] = [[False] * n for _ in range(m)]
-        directions: List[Tuple[int, int]] = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        directions: List[Tuple[int,int,str]] = [(-1, 0, "U"), (1, 0, "D"), (0, -1, "L"), (0, 1, "R")]
 
-        unique_islands: Set[Tuple[Tuple[int, int]]] = set()
+        unique_islands: Set[Tuple[str, ...]] = set()
 
-        def dfs(row: int, col: int, base_row: int, base_col: int, track: List[Tuple[int, int]]) -> None:
+        def dfs(row: int, col: int, signature: List[str], origin_marker) -> None:
             if not self.is_valid_move(row, col, grid, visited):
                 return
             visited[row][col] = True
-            track.append((row - base_row, col - base_col))
+            signature.append(origin_marker)
 
             for direction in directions:
                 new_row: int = row + direction[0]
                 new_col: int = col + direction[1]
+                mark: str = direction[2]
 
-                dfs(new_row, new_col, base_row, base_col, track)
+                dfs(new_row, new_col, signature, mark)
+            
+            signature.append("O")
             
         for r in range(m):
             for c in range(n):
                 if not visited[r][c] and grid[r][c] == 1:
-                    track: List[Tuple[int, int]] = []
-                    dfs(r, c, r, c, track)
-                    shape: Tuple[Tuple[int, int]] = tuple(sorted(track))
-                    unique_islands.add(shape)
+                    signature: List[str] = []
+                    dfs(r, c, signature, "S")
+                    unique_islands.add(tuple(signature))
         return len(unique_islands)
 
 
