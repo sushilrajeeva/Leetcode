@@ -3,8 +3,8 @@ from collections import *
 
 class Solution:
 
-    def isValidMove(self, grid: List[List[int]], distances: List[List[int]], row: int, col: int) -> bool:
-        return 0 <= row < len(grid) and 0 <= col < len(grid[0]) and grid[row][col] == 0 and distances[row][col] == -1
+    def isValidMove(self, grid: List[List[int]], visited: List[List[int]], row: int, col: int) -> bool:
+        return 0 <= row < len(grid) and 0 <= col < len(grid[0]) and grid[row][col] == 0 and not visited[row][col]
 
     def shortestDistance(self, grid: List[List[int]]) -> int:
 
@@ -13,42 +13,36 @@ class Solution:
 
         
         directions: List[Tuple[int, int]] = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        dist_sum = [[0] * n for _ in range(m)]
+        reach_count = [[0] * n for _ in range(m)]
         total_buildings = 0
 
-        # Two helper grids:
-        #   total_dist[i][j] = sum of distances from all buildings seen so far
-        #   reach_count[i][j] = how many buildings have reached (i,j)
-        total_dist = [[0] * n for _ in range(m)]
-        reach_count = [[0] * n for _ in range(m)]
-
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == 1:
+        for row in range(m):
+            for col in range(n):
+    
+                if grid[row][col] == 1:
                     total_buildings += 1
-                    distances: List[List[int]] = [[-1] * n for _ in range(m)]
-                    queue = deque([(i, j)])
-                    distances[i][j] = 0
-
+                    queue = deque([(row, col, 0)])
+                    visited = [[False] * n for _ in range(m)]
+                    visited[row][col] = True
                     while queue:
-                        row, col = queue.popleft()
+                        r, c, d = queue.popleft()
+                        for dr, dc in directions:
+                            new_row = r + dr
+                            new_col = c + dc
 
-                        for direction in directions:
-                            r, c = direction
-                            new_row = r + row
-                            new_col = c + col
-                            if self.isValidMove(grid, distances, new_row, new_col):
-                                distances[new_row][new_col] = distances[row][col] + 1
-                                queue.append((new_row, new_col))
-                                total_dist[new_row][new_col] += distances[new_row][new_col]
+                            if self.isValidMove(grid, visited, new_row, new_col):
+                                visited[new_row][new_col] = True
+                                dist_sum[new_row][new_col] += d + 1
                                 reach_count[new_row][new_col] += 1
 
-        ans = float('inf')
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == 0 and reach_count[i][j] == total_buildings:
-                    ans = min(ans, total_dist[i][j])
+                                queue.append((new_row, new_col, d + 1))
 
-        return ans if ans != float('inf') else -1
+        best = float("inf")
+        for r in range(m):
+            for c in range(n):
+                if grid[r][c] == 0 and reach_count[r][c] == total_buildings:
+                    best = min(best, dist_sum[r][c])
 
 
-        
+        return best if best != float('inf') else -1
