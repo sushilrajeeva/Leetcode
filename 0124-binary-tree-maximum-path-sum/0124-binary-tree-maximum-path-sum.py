@@ -5,31 +5,27 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
 
-        mem = dict()
-        maxSum = [float("-inf")]
+        maxSum: int = float("-inf")
 
-        def getMaxPath(root: Optional[TreeNode]) -> int:
-            if not root:
+        def helper(node: Optional[TreeNode]) -> int:
+            nonlocal maxSum
+            if not node:
                 return 0
+            
+            left_operation: int = max(helper(node.left), 0)
+            right_operation: int = max(helper(node.right), 0)
 
-            # Recursively get the maximum path sum of left and right subtrees
-            leftSum = max(getMaxPath(root.left), 0)  # Only consider positive contributions
-            rightSum = max(getMaxPath(root.right), 0)  # Only consider positive contributions
+            current_sum = node.val + left_operation + right_operation
 
-            # Current path sum including the root node
-            currentPathSum = root.val + leftSum + rightSum
+            maxSum = max(maxSum, current_sum)
 
-            # Update the global maximum path sum
-            maxSum[0] = max(maxSum[0], currentPathSum)
+            return node.val + max(left_operation, right_operation)
 
-            # Return the maximum sum of the path that can be extended to parent
-            return root.val + max(leftSum, rightSum)
-        
-        getMaxPath(root)
-
-        return maxSum[0]
-
+        helper(root)
+        return maxSum
+            
 
         
