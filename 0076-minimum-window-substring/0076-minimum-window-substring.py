@@ -37,10 +37,11 @@ class Solution:
                 # Remove s[l] from window
                 left_char = s[l]
                 s_map[left_char] -= 1
+                l += 1
                 # If we fell below the required count, we no longer “form” that char
                 if left_char in t_map and s_map[left_char] < t_map[left_char]:
                     formed -= 1
-                l += 1
+                
 
         # Return the best window, or "" if none found
         if minRange[0] == -1:
