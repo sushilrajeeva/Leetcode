@@ -5,6 +5,15 @@ class Solution:
         queue = deque([(0, 0)]) # (cur_sum, cur_total)
         visited = {0}
 
+        """ coins = [1, 2, 5] amount = 11
+                                                0
+                                    1           2       5
+                                |2   3   6| |4  7|  |10|           
+                              | | |5 8| |11|     
+        """
+
+
+
         while queue:
             cur_sum, cur_total = queue.popleft()
             if cur_sum == amount:
