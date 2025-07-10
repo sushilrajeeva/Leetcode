@@ -18,7 +18,7 @@ class Solution:
         heapq.heapify(heap)
 
         for key, value in numCount.items():
-            heapq.heappush(heap, [value, key])
+            heapq.heappush(heap, (value, key))
 
         for i in range(len(numCount)-k):
             heapq.heappop(heap)
