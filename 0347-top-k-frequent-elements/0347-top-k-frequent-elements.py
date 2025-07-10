@@ -1,14 +1,18 @@
 import heapq
+from typing import *
+from collections import defaultdict
+import heapq
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
-        numCount: dict = dict()
+        numCount: dict = defaultdict(int)
         n: int = len(nums)
         if k == len(nums):
             return nums
 
         for i in range(n):
-            numCount[nums[i]] = numCount.get(nums[i], 0) + 1
+            numCount[nums[i]] += 1
 
         heap = []
         heapq.heapify(heap)
