@@ -5,26 +5,19 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def sortedElements(self, root: Optional[TreeNode], result: List[int]) -> None:
-
-        if not root:
-            return
-
-        # Inorder :-> moving left then middle then right
-        self.sortedElements(root.left, result)
-        result.append(root.val)
-        self.sortedElements(root.right, result)
-
-        return
-
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        self.count = 0
+        self.result = None
 
-        result = []
-        self.sortedElements(root, result)
-        return result[k-1]
+        def inorder(node: Optional[TreeNode]):
+            if not node or self.result is not None:
+                return
+            inorder(node.left)
+            self.count += 1
+            if self.count == k:
+                self.result = node.val
+                return
+            inorder(node.right)
 
-
-
-
-        
-        
+        inorder(root)
+        return self.result
