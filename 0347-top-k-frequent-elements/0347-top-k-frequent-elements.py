@@ -4,6 +4,8 @@ class Solution:
 
         numCount: dict = dict()
         n: int = len(nums)
+        if k == len(nums):
+            return nums
 
         for i in range(n):
             numCount[nums[i]] = numCount.get(nums[i], 0) + 1
