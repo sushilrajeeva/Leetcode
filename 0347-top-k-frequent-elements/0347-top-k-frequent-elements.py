@@ -19,9 +19,8 @@ class Solution:
 
         for key, value in numCount.items():
             heapq.heappush(heap, (value, key))
-
-        for i in range(len(numCount)-k):
-            heapq.heappop(heap)
+            if len(heap) > k:
+                heapq.heappop(heap)
 
         return [ele[1] for ele in heap]
 
