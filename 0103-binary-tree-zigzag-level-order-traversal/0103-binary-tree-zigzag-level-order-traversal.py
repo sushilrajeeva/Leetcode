@@ -14,13 +14,13 @@ class Solution:
 
         while queue:
             level_len = len(queue)
-            level = deque()
+            level = [0] * level_len
             for i in range(level_len):
                 node: Optional[TreeNode] = queue.popleft()
                 if flag:
-                    level.append(node.val)
+                    level[i] = node.val
                 else:
-                    level.appendleft(node.val)
+                    level[level_len-i-1] = node.val
                 
                 if node.left:
                     queue.append(node.left)
@@ -28,7 +28,7 @@ class Solution:
                     queue.append(node.right)
 
             flag  = False if flag else True
-            res.append(list(level))
+            res.append(level)
         
         return res
 
