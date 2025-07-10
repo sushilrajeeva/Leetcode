@@ -1,7 +1,13 @@
 from typing import *
 from collections import defaultdict
+
+# OVERALL:
+    # TC = O(N)
+    # SC = O(N)
 class Solution:
 
+    # TC: O(N)
+    # SC: O(N)
     def build_graph(self, roads: List[List[int]]) -> Dict[int, List[int]]:
         self.graph = defaultdict(list)
         for u, v in roads:
@@ -14,7 +20,8 @@ class Solution:
         graph: Dict[int, List[int]] = self.build_graph(roads)
 
         self.fuel = 0
-
+        # TC: O(V+E) => O(N) + O(N -1) => O(2N-1) = O(N)
+        # SC: O(V) => O(N)
         def dfs(node: int, parent: int) -> int:
             reps = 1
             for neighbor in graph[node]:
