@@ -4,114 +4,34 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
-from collections import deque, defaultdict
-
-class Queue:
-    def __init__(self):
-        self.queue = deque()
-
-    def isEmpty(self) -> bool:
-        return len(self.queue) == 0
-    
-    def length(self) -> int:
-        return len(self.queue)
-
-    def peak(self) -> Optional[TreeNode]:
-        if self.isEmpty():
-            raise IndexError("Queue is Empty")
-        return self.queue[0]
-
-    def enqueue(self, value: int) -> None:
-        self.queue.append(value)
-
-    def dequeue(self) -> Optional[TreeNode]:
-        if self.isEmpty():
-            raise IndexError("Queue is Empty")
-        return self.queue.popleft()
-
+from typing import *
+from collections import *
 class Solution:
-
-    def markParent(self, root: Optional[TreeNode], parent_map: dict) -> None:
-        """
-            This function does a BFS on the entire tree and as it iterates it stores the parent child relation
-            in parent_map dictionary
-        """
-
-        if not root:
-            return None
-
-        queue: Queue = Queue()
-        queue.enqueue(root)
-
-        while not queue.isEmpty():
-            parentNode: Optional[TreeNode] = queue.dequeue()
-
-            if parentNode.left:
-                parent_map[parentNode.left] = parentNode
-                queue.enqueue(parentNode.left)
-            if parentNode.right:
-                parent_map[parentNode.right] = parentNode
-                queue.enqueue(parentNode.right)
-
-        return
-            
-
+    def build_parents_map(self, node: TreeNode, parent: TreeNode, parent_map: Set[TreeNode]) -> Set[TreeNode]:
+        if node:
+            parent_map[node] = parent
+            self.build_parents_map(node.left, node, parent_map)
+            self.build_parents_map(node.right, node, parent_map)
 
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
+        parent_map = defaultdict(TreeNode)
+        self.build_parents_map(root, None, parent_map)
 
-        if not root:
-            return []
+        # bfs
 
-        parent_map: dict = defaultdict()
+        queue = deque([(target, 0)])
+        visited: Set[TreeNode] = set([target])
 
-        # now we will do bfs to mark parent child 
-        self.markParent(root, parent_map)
+        while queue:
+            if queue[0][1] == k:
+                return [node.val for node, distance in queue]
+            size = len(queue)
+            for _ in range(size):
+                node, distance = queue.popleft()
+                for neighbor in (node.left, node.right, parent_map.get(node, None)):
+                    if neighbor and neighbor not in visited:
+                        visited.add(neighbor)
+                        queue.append((neighbor, distance + 1))
 
-        # Lets do bfs from target node and travel radially outward until distance == k
-        queue: Queue = Queue()
-        queue.enqueue(target)
-        distance: int = 0 # this signifies the distance from the target node
-
-        # I will use a hash map to keep track of visited nodes
-        visited: dict = defaultdict()
-        visited[target] = True
-
-        while not queue.isEmpty():
-            
-            if distance == k: break
-            distance += 1
-
-            size = queue.length()
-
-            for i in range(size):
-                currentNode: Optional[TreeNode] = queue.dequeue()
-
-                # check if childs of node is visited
-                if currentNode.left and currentNode.left not in visited:
-                    visited[currentNode.left] = True
-                    queue.enqueue(currentNode.left)
-                if currentNode.right and currentNode.right not in visited:
-                    visited[currentNode.right] = True
-                    queue.enqueue(currentNode.right)
-                
-                # check if parent of the node is visited
-                if currentNode in parent_map and parent_map[currentNode] not in visited:
-                    visited[parent_map[currentNode]] = True
-                    queue.enqueue(parent_map[currentNode])
-
-        result = []
-
-        while not queue.isEmpty():
-            currentNode: Optional[TreeNode] = queue.dequeue()
-            result.append(currentNode.val)
-
-        return result
-
-
-
-
-
-
-        
+        return []
         
