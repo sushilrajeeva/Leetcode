@@ -4,7 +4,8 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+from typing import *
+from collections import deque
 class Codec:
 
     def serialize(self, root):
@@ -13,21 +14,23 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-
-        def helper(root) -> str:
-            if not root: return "_"
-
-            left = helper(root.left)
-            right = helper(root.right)
-            return str(root.val) + "," + left + "," + right
-
-        res = ""
-        res = helper(root)
-
-        print("res", res)
-        return res
-
+        if not root:
+            return ""
+        result = []
+        queue = deque([root])
         
+        while queue:
+            node = queue.popleft()
+            if node:
+                result.append(str(node.val))
+                queue.append(node.left)
+                queue.append(node.right)
+            else:
+                result.append("null")
+            
+
+        return ",".join(result)
+
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -35,23 +38,26 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
+        if not data:
+            return None
+        
+        nodes: List[int] = data.split(",")
+        root = TreeNode(int(nodes[0]))
+        queue = deque([root])
+        n: int = len(nodes)
+        i = 1
 
-        decode_list = data.split(",")
+        while queue:
+            node = queue.popleft()
 
-        print("decode_list", decode_list)
-
-        def helper(index):
-            if decode_list[index] == "_":
-                return None, index + 1
-            
-            node = TreeNode(decode_list[index])
-
-            node.left, next_index = helper(index + 1)
-            node.right, next_index = helper(next_index)
-
-            return node, next_index
-
-        root, next_index = helper(0)
+            if i < n and nodes[i] != "null":
+                node.left = TreeNode(int(nodes[i]))
+                queue.append(node.left)
+            i += 1
+            if i < n and nodes[i] != "null":
+                node.right = TreeNode(int(nodes[i]))
+                queue.append(node.right)
+            i += 1
         return root
         
 
