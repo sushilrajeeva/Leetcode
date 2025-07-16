@@ -10,7 +10,7 @@ class Solution:
             breadth: int = right - left
             max_area = max(max_area, length * breadth)
 
-            if height[left] < height[right]:
+            if height[left] <= height[right]:
                 left += 1
             else:
                 right -= 1
