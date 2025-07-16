@@ -5,13 +5,10 @@ class Solution:
         n: int = len(height)
         right: int = n - 1
 
-        def computeArea(length: int, breadth: int) -> int:
-            return length * breadth
-
         while left < right:
             length: int = min(height[left], height[right])
             breadth: int = right - left
-            max_area = max(max_area, computeArea(length, breadth))
+            max_area = max(max_area, length * breadth)
 
             if height[left] < height[right]:
                 left += 1
