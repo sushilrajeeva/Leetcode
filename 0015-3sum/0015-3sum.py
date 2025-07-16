@@ -29,3 +29,6 @@ class Solution:
                 high -= 1
                 while low < high and nums[low] == nums[low - 1]:
                     low += 1
+
+                while low < high and nums[high] == nums[high + 1]:
+                    high -= 1
