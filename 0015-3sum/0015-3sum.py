@@ -5,29 +5,27 @@ class Solution:
         nums.sort()
         
         for i in range(n-2):
-            a: int = nums[i]
-            if i > 0 and nums[i-1] == a:
-                continue
-            left: int = i + 1
-            right: int = n - 1
-
-            while left < right:
-                total = a + nums[left] + nums[right]
-                if total == 0:
-                    res.append([a, nums[left], nums[right]])
-
-                    while left < right and nums[left] == nums[left + 1]:
-                        left += 1
-                    while left < right and nums[right] == nums[right - 1]:
-                        right -= 1
-
-                    left += 1
-                    right -= 1
-
-                elif total < 0:
-                    left += 1
-                else:
-                    right -= 1
+            if nums[i] > 0:
+                break
+            if i == 0 or nums[i-1] != nums[i]:
+                self.twoSum(nums, i, res)
 
         return res
-        
+
+    def twoSum(self, nums: List[int], i: int, res: List[List[int]]) -> None:
+        low: int = i + 1
+        high: int = len(nums) - 1
+
+        while low < high:
+            total = nums[i] + nums[low] + nums[high]
+
+            if total < 0:
+                low += 1
+            elif total > 0:
+                high -= 1
+            else:
+                res.append([nums[i], nums[low], nums[high]])
+                low += 1
+                high -= 1
+                while low < high and nums[low] == nums[low - 1]:
+                    low += 1
