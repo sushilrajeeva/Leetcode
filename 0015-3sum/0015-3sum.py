@@ -6,7 +6,7 @@ class Solution:
         
         for i in range(n-2):
             if nums[i] > 0:
-                break
+                return res
             if i == 0 or nums[i-1] != nums[i]:
                 self.twoSum(nums, i, res)
 
