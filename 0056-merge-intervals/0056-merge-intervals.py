@@ -1,29 +1,23 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        output = []
-
-        n = len(intervals)
-
-        if n == 1:
+        n: int = len(intervals)
+        if n <= 1:
             return intervals
 
-        def sortFirst(interval: List[int]):
-            return interval[0]
+        mergeList: List[List[int]] = []
 
-        intervals.sort(key=sortFirst)
-        
-        currentRange = intervals[0]
+        intervals.sort(key = lambda x: x[0])
 
-        
+        start, end = intervals[0]
 
-        for i in range(1, n):
-            interval = intervals[i]
-            if currentRange[1] < interval[0]:
-                output.append(currentRange)
-                currentRange = interval
+        for cur_start, cur_end in intervals[1:]:
+            if cur_start <= end:
+                end = max(end, cur_end)
             else:
-                currentRange[1] = max(currentRange[1], interval[1])
+                mergeList.append([start, end])
+                start, end = cur_start, cur_end
         
-        output.append(currentRange)
+        # edge case of left out interval
+        mergeList.append([start, end])
 
-        return output
+        return mergeList
