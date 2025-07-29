@@ -4,46 +4,24 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def getNodeLength(self, head: Optional[ListNode]) -> int:
-        length = 0
-        current: Optional[ListNode] = head
-        while current:
-            length += 1
-            current = current.next
-        return length
-
-    def getToDelNode(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        i = 0
-        current: Optional[ListNode] = head
-        while current:
-            if i == k:
-                return current
-            i += 1
-            current = current.next
-        return current
-    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        length: int = self.getNodeLength(head)
-        k = length - n
-        to_del: Optional[ListNode] = self.getToDelNode(head, k)
-        if not to_del:
-            return head
-        current: Optional[ListNode] = head
-        prev: Optional[ListNode] = None
-        while current:
-            next = current.next
-            if current == to_del:
-                current.next = None
-                if prev:
-                    prev.next = next
-                    return head
-                else:
-                    return next
-            else:
-                prev = current
-                current = current.next
-        return head
-                
-
-
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        # Dummy node points to head, so deleting head is uniform
+        dummy = ListNode(0, head)
         
+        first = dummy
+        second = dummy
         
+        # Move `first` n+1 steps ahead, so the gap between first and second is n nodes
+        for _ in range(n + 1):
+            first = first.next
+        
+        # Advance both until first hits the end
+        while first:
+            first = first.next
+            second = second.next
+        
+        # Now second.next is the node to delete; unlink it
+        second.next = second.next.next
+        
+        # Return the (possibly new) head
+        return dummy.next
