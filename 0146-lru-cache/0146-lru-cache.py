@@ -1,111 +1,68 @@
-class Node:
-    def __init__(self, value: int = 0, prev = None, next = None):
-        self.value = value
-        self.prev = prev
+from typing import *
+class ListNode:
+    def __init__(self, key: int, val: int, previous = None, next = None):
+        self.key = key
+        self.val = val
+        self.previous = previous
         self.next = next
 
 class LRUCache:
-    # cap = 2
-    # head: Node = Node(-1)
-    # tail: Node = Node(-1)
-
-    # head.next = tail
-    # tail.prev = head
-
-    # head <=> (2, 2) <=> (1, 1) <=> tail
-
-    # add(node: Node):
-    #     next: Node = head.next
-    #     head.next = node
-    #     node.prev = head
-    #     node.next = next
-    #     next.prev = node
-
-    #     dict[key] = node 
-
-    # del_node(node:Node) -> Node:
-    #     prev_node = node.prev
-    #     next_node = node.next
-    #     prev_node.next = next_node
-    #     next_node.prev = prev_node
-    #     node.next = None
-    #     node.prev = None
-    #     return node
-
-    # get(key) -> int:
-    #     if key not in dict: return -1
-    #     key, val = dict[key].val
-    #     node: Node = del_node(dict[key])
-    #     add(node)
-
-    #     return val
-
-    # put(key, val):
-    #     if length == capacity:
-    #         to_del: Node = tail.prev
-    #         del_node(to_del)
-    #         dict.remove(key)
-    #     node: Node = Node((key, val))
-    #     add(node)
-    #     dict[key] = node
-        
-
-    # dict = { 
-    #             1: <address>
-    #             2: <address>
-    #          }
 
     def __init__(self, capacity: int):
-        self.capacity: int = capacity
-        self.head: Node = Node((-1, -1))
-        self.tail: Node = Node((-1, -1))
+        self.capacity = capacity
+        self.cache: Dict[int, Optional[ListNode]] = {}
+        self.head: ListNode = ListNode(-1, -1)
+        self.tail: ListNode = ListNode(-2, -2)
         self.head.next = self.tail
-        self.tail.prev = self.head
-        self.memo: dict = {}
+        self.tail.previous = self.head
 
-    def del_node(self, node: Node) -> Node:
-        prev_node: Node = node.prev
-        next_node: Node = node.next
-        prev_node.next = next_node
-        next_node.prev = prev_node
-        node.next = None
-        node.prev = None
-        return node
+    def move_to_end(self, node: Optional[ListNode]):
+        lastNode: ListNode = self.tail.previous
 
-    def add_node(self, node: Node) -> Node:
-        next: Node = self.head.next
-        self.head.next = node
-        node.prev = self.head
-        node.next = next
-        next.prev = node
-        return node
+        lastNode.next = node
+        node.previous = lastNode
+
+        node.next = self.tail
+        self.tail.previous = node
+
+    def rewire_pointers(self, node: Optional[ListNode]):
+        before: ListNode = node.previous
+        after: ListNode = node.next
+
+        before.next = after
+        after.previous = before
         
 
     def get(self, key: int) -> int:
-        if key not in self.memo: return -1
-        node: Node = self.memo[key]
-        self.del_node(node)
-        # node.value = (key, value)
-        self.add_node(node)
+        if key not in self.cache:
+            return -1
+        
+        node: ListNode = self.cache[key]
+        value: int = node.val
 
-        return node.value[1]
+        self.rewire_pointers(node)
+        self.move_to_end(node)
+
+        return value
         
 
     def put(self, key: int, value: int) -> None:
-        if key in self.memo:
-            node = self.memo[key]
-            self.del_node(node)
-            node.value = (key, value)
-            self.add_node(node)
+
+        node: Optional[ListNode] = None
+        if key in self.cache:
+            node = self.cache[key]
+            node.val = value
+            self.rewire_pointers(node)
         else:
-            if len(self.memo) == self.capacity:
-                to_del: Node = self.tail.prev
-                self.del_node(to_del)
-                self.memo.pop(to_del.value[0])
-            node: Node = Node((key, value))
-            self.add_node(node)
-            self.memo[key] = node
-        
+            node = ListNode(key, value)
+        self.cache[key] = node
+        self.move_to_end(node)
+
+        if len(self.cache) > self.capacity:
+            lruNode: ListNode = self.head.next
+            self.rewire_pointers(lruNode)
+            del self.cache[lruNode.key]
+
         
 
 
