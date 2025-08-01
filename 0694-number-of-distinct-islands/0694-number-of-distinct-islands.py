@@ -34,6 +34,7 @@ class Solution:
                     signature: List[str] = []
                     dfs(r, c, signature, "S")
                     unique_islands.add(tuple(signature))
+        print("unique", unique_islands)
         return len(unique_islands)
 
 
