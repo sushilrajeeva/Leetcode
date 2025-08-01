@@ -1,28 +1,48 @@
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
-        # Initialize a set to keep track of seen numbers
-        seen = set()
 
-        # Iterate through each cell in the 9x9 Sudoku board
-        for row in range(9):
-            for col in range(9):
-                number = board[row][col]
+    def valid_rows(self, board: List[List[int]]) -> bool:
+        rows: int = len(board)
+        cols: int = len(board[0])
 
-                # Check only the cells that are filled with a number
-                if number != ".":
-
-                    # Create unique identifiers for the row, column, and box
-                    row_key = f"{number} in row {row}"
-                    col_key = f"{number} in column {col}"
-                    box_key = f"{number} in box {row//3}-{col//3}"
-
-                    # Check if any of these identifiers already exist in 'seen'
-                    if (row_key in seen) or (col_key in seen) or (box_key in seen):
-                        # If any identifier is already seen, the board is invalid
-                        return False
-                    
-                    # Add the new identifiers to the 'seen' set
-                    seen.update({row_key, col_key, box_key})
-
-        # If no duplicates are found, the board is valid
+        for row in range(rows):
+            seen = set()
+            for col in range(cols):
+                if board[row][col] in seen:
+                    return False
+                if board[row][col] != ".":
+                    seen.add(board[row][col])
         return True
+
+    def valid_cols(self, board: List[List[int]]) -> bool:
+        rows: int = len(board)
+        cols: int = len(board[0])
+
+        for col in range(cols):
+            seen = set()
+            for row in range(rows):
+                if board[row][col] in seen:
+                    return False
+                if board[row][col] != ".":
+                    seen.add(board[row][col])
+        return True
+
+    def valid_subgrid(self, board: List[List[int]], row: int, col: int) -> bool:
+        seen = set()
+        for r in range(row, row + 3):
+            for c in range(col, col + 3):
+                if board[r][c] in seen:
+                    return False
+                if board[r][c] != ".":
+                    seen.add(board[r][c])
+        return True
+
+    def valid_subgrids(self, board: List[List[int]]) -> bool:
+        for row in range(3):
+            for col in range(3):
+                if not self.valid_subgrid(board, row * 3, col * 3):
+                    return False
+        return True
+
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        return self.valid_rows(board) and self.valid_cols(board) and self.valid_subgrids(board)
+        
