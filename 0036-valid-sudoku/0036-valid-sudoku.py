@@ -44,5 +44,9 @@ class Solution:
         return True
 
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        return self.valid_rows(board) and self.valid_cols(board) and self.valid_subgrids(board)
+        return (
+            self.valid_rows(board) and
+            self.valid_cols(board) and
+            self.valid_subgrids(board)
+            )
         
