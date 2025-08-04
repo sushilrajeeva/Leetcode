@@ -32,7 +32,6 @@ class Solution:
         # Try each cell
         for r in range(R):
             for c in range(C):
-                visited = [[False]*C for _ in range(R)]
                 if dfs(r, c, 0):
                     return True
         return False
