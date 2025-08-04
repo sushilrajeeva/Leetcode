@@ -1,39 +1,32 @@
-from queue import Queue
+from collections import deque
 
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+        def valid(row, col):
+            return 0 <= row < m and 0 <= col < n
         
-        n = len(mat)
-        m = len(mat[0])
-
-        visited = [[False] * m for _ in range(n)]
-
-        dist = [[0] * m for _ in range(n)]
-
-        # Directions for moving up, down, left, right
-        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
-
-        q = Queue()
         
-        for i in range(n):
-            for j in range(m):
-                if mat[i][j] == 0:
-                    q.put((i, j, 0))
-                    visited[i][j] = True
+        m = len(mat)
+        n = len(mat[0])
+        dist = [[-1] * n for _ in range(m)]
+        queue = deque()
         
-        while not q.empty():
-            row, col, distance = q.get()
-            dist[row][col] = distance
+        for row in range(m):
+            for col in range(n):
+                if mat[row][col] == 0:
+                    queue.append((row, col))
+                    dist[row][col] = 0
+        
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
+        while queue:
+            row, col = queue.popleft()
+            
             for r, c in directions:
-                newRow, newCol = row + r, col + c
-
-                if 0 <= newRow < n and 0 <= newCol < m and not visited[newRow][newCol]:
-                    visited[newRow][newCol] = True
-                    q.put((newRow, newCol, distance+1))
-
+                nr, nc = row + r, col + c
+                if valid(nr, nc) and dist[nr][nc] == -1:
+                    dist[nr][nc] = dist[row][col] + 1
+                    queue.append((nr, nc))
+                    
         
         return dist
-
-
-        
