@@ -29,7 +29,7 @@ class Solution {
             }
             int avg = (totalScore)/pq.size();
 
-            result.add(new ArrayList<>(List.of(id, avg)));
+            result.add(new ArrayList<>(Arrays.asList(id, avg)));
 
         }
 
