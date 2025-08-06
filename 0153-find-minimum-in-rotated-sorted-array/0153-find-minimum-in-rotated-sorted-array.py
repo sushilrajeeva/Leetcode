@@ -20,9 +20,14 @@ class Solution:
                 return nums[mid + 1]
             elif mid > 0 and nums[mid-1] > nums[mid]:
                 return nums[mid]
+            #     return nums[mid]
                 
-            if nums[mid] > nums[-1]:
+            # if nums[mid] > nums[-1]:
+            #     left = mid + 1
+            # else: right = mid - 1
+            if nums[mid] >= nums[-1]:
                 left = mid + 1
-            else: right = mid - 1
+            else:
+                right = mid - 1
 
         return -1
