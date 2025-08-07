@@ -9,27 +9,17 @@ class Solution:
         dummy = ListNode(-1)
         current = dummy
 
-        cur1 = list1
-        cur2 = list2
-
-        while cur1 and cur2:
-            if cur1.val <= cur2.val:
-                temp = cur1
-                cur1 = cur1.next
-                temp.next = None
-                current.next = temp
+        while list1 and list2:
+            if list1.val <= list2.val:
+                current.next = list1
+                list1 = list1.next
             else:
-                temp = cur2
-                cur2 = cur2.next
-                temp.next = None
-                current.next = temp
+                current.next = list2
+                list2 = list2.next
+            
             current = current.next
 
-        if cur1:
-            current.next = cur1
-        
-        if cur2:
-            current.next = cur2
+        current.next = list1 if list1 else list2
 
         return dummy.next
         
