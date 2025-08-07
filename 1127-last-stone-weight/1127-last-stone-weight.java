@@ -21,7 +21,7 @@ class Solution {
             }
         }
 
-        return maxHeap.size() == 0 ? 0 : maxHeap.poll();
+        return maxHeap.size() == 0 ? 0 : maxHeap.peek();
         
     }
 }
