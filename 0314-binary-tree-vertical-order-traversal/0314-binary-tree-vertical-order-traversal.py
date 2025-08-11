@@ -19,11 +19,12 @@ class Solution:
 
         while q:
             node, col = q.popleft()
-            left = min(left, col)
-            right = max(right, col)
+            
             if col not in memo:
                 memo[col] = []
             memo[col].append(node.val)
+            left = min(left, col)
+            right = max(right, col)
 
             if node.left:
                 q.append((node.left, col - 1))
