@@ -28,6 +28,8 @@ class Codec:
             else:
                 result.append("null")
             
+        while result and result[-1] == "null":
+            result.pop()
 
         return ",".join(result)
 
@@ -52,14 +54,16 @@ class Codec:
             for _ in range(size):
                 node = queue.popleft()
 
-                if i < n and nodes[i] != "null":
-                    node.left = TreeNode(int(nodes[i]))
-                    queue.append(node.left)
-                i += 1
-                if i < n and nodes[i] != "null":
-                    node.right = TreeNode(int(nodes[i]))
-                    queue.append(node.right)
-                i += 1
+                if i < n:
+                    if nodes[i] != "null":
+                        node.left = TreeNode(int(nodes[i]))
+                        queue.append(node.left)
+                    i += 1
+                if i < n:
+                    if nodes[i] != "null":
+                        node.right = TreeNode(int(nodes[i]))
+                        queue.append(node.right)
+                    i += 1
         return root
         
 
