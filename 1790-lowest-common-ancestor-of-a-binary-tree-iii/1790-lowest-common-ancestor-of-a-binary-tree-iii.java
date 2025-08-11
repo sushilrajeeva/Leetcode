@@ -15,8 +15,8 @@ class Solution {
         Node b = q;
 
         while (a != b) {
-            a = a != null ? a.parent : p;
-            b = b != null ? b.parent : q;
+            a = a != null ? a.parent : q;
+            b = b != null ? b.parent : p;
         }
 
         return a;
