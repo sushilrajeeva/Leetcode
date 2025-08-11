@@ -14,9 +14,29 @@ class Solution {
         Node a = p;
         Node b = q;
 
+        int switchedA = 0;
+        int switchedB = 0;
+
         while (a != b) {
-            a = a != null ? a.parent : q;
-            b = b != null ? b.parent : p;
+            if (a == null) {
+                a = q;
+                switchedA += 1;
+                if (switchedA > 1) {
+                    return null;
+                }
+            } else {
+                a = a.parent;
+            }
+
+            if (b == null) {
+                b = p;
+                switchedB += 1;
+                if (switchedB > 1) {
+                    return null;
+                }
+            } else {
+                b = b.parent;
+            }
         }
 
         return a;
