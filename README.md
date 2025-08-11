@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/sushilrajeeva/Leetcode/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sushilrajeeva/Leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/sushilrajeeva/Leetcode/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2384-root-equals-sum-of-children](https://github.com/sushilrajeeva/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/sushilrajeeva/Leetcode/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
@@ -397,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
+| [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/sushilrajeeva/Leetcode/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/sushilrajeeva/Leetcode/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/sushilrajeeva/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
@@ -487,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/sushilrajeeva/Leetcode/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2384-root-equals-sum-of-children](https://github.com/sushilrajeeva/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Interactive
