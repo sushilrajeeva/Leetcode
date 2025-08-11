@@ -13,6 +13,16 @@
  *     }
  * }
  */
+
+class Item {
+    TreeNode node;
+    int col;
+    Item(TreeNode node, int col) {
+        this.node = node;
+        this.col = col;
+    }
+}
+
 class Solution {
     public List<List<Integer>> verticalOrder(TreeNode root) {
 
@@ -25,13 +35,13 @@ class Solution {
         int left = 0;
         int right = 0;
 
-        Queue<Pair<TreeNode, Integer>> q = new ArrayDeque();
-        q.offer(new Pair(root, 0));
+        Queue<Item> q = new ArrayDeque();
+        q.offer(new Item(root, 0));
 
         while (!q.isEmpty()) {
-            Pair<TreeNode, Integer> pair = q.poll();
-            TreeNode node = pair.getKey();
-            Integer col = pair.getValue();
+            Item item = q.poll();
+            TreeNode node = item.node;
+            Integer col = item.col;
 
             if (!memo.containsKey(col)) {
                 memo.put(col, new ArrayList<Integer>());
@@ -41,10 +51,10 @@ class Solution {
             right = Math.max(right, col);
 
             if (node.left != null) {
-                q.offer(new Pair(node.left, col - 1));
+                q.offer(new Item(node.left, col - 1));
             }
             if (node.right != null) {
-                q.offer(new Pair(node.right, col + 1));
+                q.offer(new Item(node.right, col + 1));
             }
         }
 
