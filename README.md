@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/sushilrajeeva/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sushilrajeeva/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/sushilrajeeva/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [2280-count-good-triplets-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2280-count-good-triplets-in-an-array) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0441-arranging-coins](https://github.com/sushilrajeeva/Leetcode/tree/master/0441-arranging-coins) |
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
+| [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sushilrajeeva/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1585-the-kth-factor-of-n](https://github.com/sushilrajeeva/Leetcode/tree/master/1585-the-kth-factor-of-n) |
@@ -779,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/sushilrajeeva/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2249-count-the-hidden-sequences](https://github.com/sushilrajeeva/Leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -825,4 +829,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/sushilrajeeva/Leetcode/tree/master/0295-find-median-from-data-stream) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->
