@@ -17,9 +17,9 @@ class Solution {
             return null;
         }
 
-        targetNodes = new HashSet<>();
+        this.targetNodes = new HashSet<>();
         for (TreeNode node : nodes) {
-            targetNodes.add(node);
+            this.targetNodes.add(node);
         }
 
         return findLCA(root);
