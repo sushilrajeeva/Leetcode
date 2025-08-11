@@ -48,16 +48,18 @@ class Codec:
         i = 1
 
         while queue:
-            node = queue.popleft()
+            size = len(queue)
+            for _ in range(size):
+                node = queue.popleft()
 
-            if i < n and nodes[i] != "null":
-                node.left = TreeNode(int(nodes[i]))
-                queue.append(node.left)
-            i += 1
-            if i < n and nodes[i] != "null":
-                node.right = TreeNode(int(nodes[i]))
-                queue.append(node.right)
-            i += 1
+                if i < n and nodes[i] != "null":
+                    node.left = TreeNode(int(nodes[i]))
+                    queue.append(node.left)
+                i += 1
+                if i < n and nodes[i] != "null":
+                    node.right = TreeNode(int(nodes[i]))
+                    queue.append(node.right)
+                i += 1
         return root
         
 
