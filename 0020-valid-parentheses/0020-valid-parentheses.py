@@ -1,26 +1,27 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-
         stack = []
+        mapper = {
+            "{" : "}",
+            "(" : ")",
+            "[" : "]"
+        }
 
-        mapper = {"(": ")",
-                    "{": "}",
-                    "[": "]"
-                }
+        openBrackets = set(mapper.keys())
+        closeBrackets = set(mapper.values())
 
         for ele in s:
-            if not stack and ele in {")", "}", "]"}:
-                return False
-            elif not stack or ele in {"(", "{", "["}:
+            if ele in openBrackets:
                 stack.append(ele)
-            elif stack and mapper.get(stack[-1]) == ele:
+            elif ele in closeBrackets:
+                if not stack or mapper[stack[-1]] != ele:
+                    return False
                 stack.pop()
             else:
                 return False
 
         if stack:
             return False
-
         return True
-
+            
         
