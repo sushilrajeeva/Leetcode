@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/sushilrajeeva/Leetcode/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/sushilrajeeva/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sushilrajeeva/Leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -710,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1542-consecutive-characters](https://github.com/sushilrajeeva/Leetcode/tree/master/1542-consecutive-characters) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/sushilrajeeva/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
