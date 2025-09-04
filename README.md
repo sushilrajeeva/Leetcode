@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/sushilrajeeva/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0224-basic-calculator](https://github.com/sushilrajeeva/Leetcode/tree/master/0224-basic-calculator) |
 | [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
+| [0326-power-of-three](https://github.com/sushilrajeeva/Leetcode/tree/master/0326-power-of-three) |
 | [0367-valid-perfect-square](https://github.com/sushilrajeeva/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/sushilrajeeva/Leetcode/tree/master/0224-basic-calculator) |
+| [0326-power-of-three](https://github.com/sushilrajeeva/Leetcode/tree/master/0326-power-of-three) |
 | [0394-decode-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0394-decode-string) |
 | [2050-count-good-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
