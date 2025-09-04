@@ -1,18 +1,15 @@
 class Solution:
-
-    def getCharVal(self, ele: str) -> int:
-        return ord(ele) - 97
-
+    def computeIndex(self, x: str) -> int:
+        return ord(x) - ord('a')
     def firstUniqChar(self, s: str) -> int:
         temp = [0] * 26
 
         for ele in s:
-            temp[self.getCharVal(ele)] += 1
+            temp[self.computeIndex(ele)] += 1
         
-        
-        for index in range(len(s)):
-            if temp[self.getCharVal(s[index])] == 1: return index
+        for index, ele in enumerate(s):
+            if temp[self.computeIndex(ele)] == 1:
+                return index
 
         return -1
-
         
