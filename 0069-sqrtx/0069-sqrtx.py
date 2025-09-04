@@ -6,8 +6,9 @@ class Solution:
         while left < right:
             mid = (right + left)//2
             compute = mid * mid
-            print("mid", mid)
-            if compute <= x:
+            if compute == x:
+                return mid
+            if compute < x:
                 left = mid + 1
             else:
                 right = mid - 1
