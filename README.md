@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sushilrajeeva/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0012-integer-to-roman](https://github.com/sushilrajeeva/Leetcode/tree/master/0012-integer-to-roman) |
 | [0036-valid-sudoku](https://github.com/sushilrajeeva/Leetcode/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/sushilrajeeva/Leetcode/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0076-minimum-window-substring) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0002-add-two-numbers) |
+| [0012-integer-to-roman](https://github.com/sushilrajeeva/Leetcode/tree/master/0012-integer-to-roman) |
 | [0066-plus-one](https://github.com/sushilrajeeva/Leetcode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/sushilrajeeva/Leetcode/tree/master/0069-sqrtx) |
 | [0166-fraction-to-recurring-decimal](https://github.com/sushilrajeeva/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
@@ -682,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sushilrajeeva/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0012-integer-to-roman](https://github.com/sushilrajeeva/Leetcode/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/sushilrajeeva/Leetcode/tree/master/0038-count-and-say) |
