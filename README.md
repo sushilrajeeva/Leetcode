@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/sushilrajeeva/Leetcode/tree/master/0733-flood-fill) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sushilrajeeva/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/sushilrajeeva/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sushilrajeeva/Leetcode/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1036-rotting-oranges](https://github.com/sushilrajeeva/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -399,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sushilrajeeva/Leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/sushilrajeeva/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sushilrajeeva/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -445,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0694-number-of-distinct-islands](https://github.com/sushilrajeeva/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sushilrajeeva/Leetcode/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/sushilrajeeva/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sushilrajeeva/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -610,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1074-high-five](https://github.com/sushilrajeeva/Leetcode/tree/master/1074-high-five) |
 | [1127-last-stone-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/1127-last-stone-weight) |
@@ -772,6 +778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/sushilrajeeva/Leetcode/tree/master/0684-redundant-connection) |
 | [0694-number-of-distinct-islands](https://github.com/sushilrajeeva/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/sushilrajeeva/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1073-number-of-enclaves) |
 | [2793-count-the-number-of-complete-components](https://github.com/sushilrajeeva/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
