@@ -49,7 +49,5 @@ class Solution:
             prev = A[n]
             n -= 1
             m -= 1
-            if n == -1 or m == -1:
-                return prev
 
         return prev
