@@ -24,30 +24,30 @@ class Solution:
 
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         
-        A = []
-        B = []
+        A = set()
 
         curA = headA
         curB = headB
 
         while curA:
-            A.append(curA)
+            A.add(curA)
             curA = curA.next
         while curB:
-            B.append(curB)
+            if curB in A:
+                return curB
             curB = curB.next
 
-        n = len(A) - 1
-        m = len(B) - 1
+        # n = len(A) - 1
+        # m = len(B) - 1
 
-        if A[-1].val != B[-1].val: return None
-        prev = None
+        # if A[-1].val != B[-1].val: return None
+        # prev = None
 
-        while n >= 0 and m >= 0:
-            if A[n] != B[m]:
-                return prev
-            prev = A[n]
-            n -= 1
-            m -= 1
+        # while n >= 0 and m >= 0:
+        #     if A[n] != B[m]:
+        #         return prev
+        #     prev = A[n]
+        #     n -= 1
+        #     m -= 1
 
-        return prev
+        # return prev
