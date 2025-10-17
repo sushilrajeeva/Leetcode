@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Tree
 |  |
@@ -668,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Merge Sort
@@ -738,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1960-check-if-the-sentence-is-pangram](https://github.com/sushilrajeeva/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Backtracking
 |  |
@@ -887,4 +890,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
+## Bitmask
+|  |
+| ------- |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 <!---LeetCode Topics End-->
