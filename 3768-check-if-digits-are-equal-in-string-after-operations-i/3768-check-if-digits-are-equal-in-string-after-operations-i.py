@@ -1,6 +1,5 @@
 class Solution:
     def hasSameDigits(self, s: str) -> bool:
-        count = 0
         while True:
             if len(s) == 2:
                 if s[0] != s[1]: return False
@@ -12,8 +11,6 @@ class Solution:
 
             for i in range(len(s) - 1):
                 new_str += str((int(s[i]) + int(s[i+1])) % 10)
-            
-            count += 1
             s = new_str
 
         return True
