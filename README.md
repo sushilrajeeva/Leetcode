@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/sushilrajeeva/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/1656-count-good-triplets) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -327,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/sushilrajeeva/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -580,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sushilrajeeva/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Sorting
@@ -674,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -897,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Hash Function
 |  |
 | ------- |
