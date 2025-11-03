@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0166-fraction-to-recurring-decimal](https://github.com/sushilrajeeva/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/sushilrajeeva/Leetcode/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/sushilrajeeva/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
@@ -743,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0093-restore-ip-addresses](https://github.com/sushilrajeeva/Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0125-valid-palindrome](https://github.com/sushilrajeeva/Leetcode/tree/master/0125-valid-palindrome) |
 | [0166-fraction-to-recurring-decimal](https://github.com/sushilrajeeva/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
+| [0205-isomorphic-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0224-basic-calculator](https://github.com/sushilrajeeva/Leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/sushilrajeeva/Leetcode/tree/master/0257-binary-tree-paths) |
