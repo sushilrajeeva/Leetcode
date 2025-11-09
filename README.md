@@ -280,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2288-count-operations-to-obtain-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2610-closest-prime-numbers-in-range](https://github.com/sushilrajeeva/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -880,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/sushilrajeeva/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0657-robot-return-to-origin](https://github.com/sushilrajeeva/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2288-count-operations-to-obtain-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
