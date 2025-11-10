@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/sushilrajeeva/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/sushilrajeeva/Leetcode/tree/master/0290-word-pattern) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/sushilrajeeva/Leetcode/tree/master/0348-design-tic-tac-toe) |
@@ -779,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/sushilrajeeva/Leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/sushilrajeeva/Leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/sushilrajeeva/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0290-word-pattern](https://github.com/sushilrajeeva/Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/sushilrajeeva/Leetcode/tree/master/0383-ransom-note) |
