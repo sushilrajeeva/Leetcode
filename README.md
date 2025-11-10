@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/sushilrajeeva/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/sushilrajeeva/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0432-all-oone-data-structure](https://github.com/sushilrajeeva/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/sushilrajeeva/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/sushilrajeeva/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
@@ -856,6 +858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/sushilrajeeva/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0348-design-tic-tac-toe](https://github.com/sushilrajeeva/Leetcode/tree/master/0348-design-tic-tac-toe) |
+| [0432-all-oone-data-structure](https://github.com/sushilrajeeva/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
 ## Union Find
@@ -916,6 +919,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/sushilrajeeva/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Prefix Sum
 |  |
