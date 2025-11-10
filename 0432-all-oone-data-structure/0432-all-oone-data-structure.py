@@ -1,6 +1,5 @@
 class Node:
     """DLL node that represents a frequency bucket."""
-    
     def __init__(self, freq: int):
         self.freq = freq
         self.keys = set()
