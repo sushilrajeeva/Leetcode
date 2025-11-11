@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0474-ones-and-zeroes](https://github.com/sushilrajeeva/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0496-next-greater-element-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0471-encode-string-with-shortest-length](https://github.com/sushilrajeeva/Leetcode/tree/master/0471-encode-string-with-shortest-length) |
+| [0474-ones-and-zeroes](https://github.com/sushilrajeeva/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0487-max-consecutive-ones-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0518-coin-change-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
@@ -801,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0443-string-compression](https://github.com/sushilrajeeva/Leetcode/tree/master/0443-string-compression) |
 | [0471-encode-string-with-shortest-length](https://github.com/sushilrajeeva/Leetcode/tree/master/0471-encode-string-with-shortest-length) |
+| [0474-ones-and-zeroes](https://github.com/sushilrajeeva/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0657-robot-return-to-origin](https://github.com/sushilrajeeva/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
