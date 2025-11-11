@@ -314,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
+| [1337-design-skiplist](https://github.com/sushilrajeeva/Leetcode/tree/master/1337-design-skiplist) |
 | [1765-merge-in-between-linked-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/1765-merge-in-between-linked-lists) |
 | [2389-design-a-text-editor](https://github.com/sushilrajeeva/Leetcode/tree/master/2389-design-a-text-editor) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/sushilrajeeva/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -870,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0716-max-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0716-max-stack) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
+| [1337-design-skiplist](https://github.com/sushilrajeeva/Leetcode/tree/master/1337-design-skiplist) |
 | [2389-design-a-text-editor](https://github.com/sushilrajeeva/Leetcode/tree/master/2389-design-a-text-editor) |
 ## Union Find
 |  |
