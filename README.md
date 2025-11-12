@@ -406,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0545-boundary-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/sushilrajeeva/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0545-boundary-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/sushilrajeeva/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -557,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0545-boundary-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/sushilrajeeva/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
