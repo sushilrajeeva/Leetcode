@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/sushilrajeeva/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
+| [0628-maximum-product-of-three-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0697-degree-of-an-array) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0441-arranging-coins](https://github.com/sushilrajeeva/Leetcode/tree/master/0441-arranging-coins) |
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/sushilrajeeva/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
@@ -668,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/sushilrajeeva/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
+| [0628-maximum-product-of-three-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
