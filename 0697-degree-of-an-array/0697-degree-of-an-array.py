@@ -1,6 +1,7 @@
 class Solution(object):
     def findShortestSubArray(self, nums):
         left, right, count = {}, {}, {}
+        degrees = 
         for i, x in enumerate(nums):
             if x not in left:
                 left[x] = i
