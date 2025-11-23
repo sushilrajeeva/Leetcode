@@ -1,0 +1,20 @@
+class Solution:
+    def validPartition(self, nums: List[int]) -> bool:
+        n = len(nums)
+        dp = [False] * (n + 1)
+        dp[0] = True
+        
+        for i in range(2, n + 1):
+            # Check 2-length partition
+            if nums[i-1] == nums[i-2]:
+                dp[i] = dp[i] or dp[i-2]
+            
+            if i >= 3:
+                # Check 3-length equal
+                if nums[i-1] == nums[i-2] == nums[i-3]:
+                    dp[i] = dp[i] or dp[i-3]
+                # Check 3-length consecutive
+                if nums[i-1] == nums[i-2] + 1 == nums[i-3] + 2:
+                    dp[i] = dp[i] or dp[i-3]
+        
+        return dp[n]
