@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/sushilrajeeva/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0460-lfu-cache) |
+| [0707-design-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0707-design-linked-list) |
 | [0716-max-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0716-max-stack) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
@@ -911,6 +912,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0348-design-tic-tac-toe](https://github.com/sushilrajeeva/Leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0432-all-oone-data-structure](https://github.com/sushilrajeeva/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/sushilrajeeva/Leetcode/tree/master/0460-lfu-cache) |
+| [0707-design-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0707-design-linked-list) |
 | [0716-max-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0716-max-stack) |
 | [0729-my-calendar-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0731-my-calendar-ii) |
