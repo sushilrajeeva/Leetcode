@@ -376,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/0053-maximum-subarray) |
+| [0087-scramble-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0087-scramble-string) |
 | [0091-decode-ways](https://github.com/sushilrajeeva/Leetcode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/sushilrajeeva/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sushilrajeeva/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -835,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0076-minimum-window-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0079-word-search) |
+| [0087-scramble-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0087-scramble-string) |
 | [0091-decode-ways](https://github.com/sushilrajeeva/Leetcode/tree/master/0091-decode-ways) |
 | [0093-restore-ip-addresses](https://github.com/sushilrajeeva/Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0125-valid-palindrome](https://github.com/sushilrajeeva/Leetcode/tree/master/0125-valid-palindrome) |
