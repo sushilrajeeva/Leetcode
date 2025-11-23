@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0252-meeting-rooms](https://github.com/sushilrajeeva/Leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0256-paint-house](https://github.com/sushilrajeeva/Leetcode/tree/master/0256-paint-house) |
 | [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/sushilrajeeva/Leetcode/tree/master/0283-move-zeroes) |
@@ -395,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/sushilrajeeva/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0140-word-break-ii) |
 | [0174-dungeon-game](https://github.com/sushilrajeeva/Leetcode/tree/master/0174-dungeon-game) |
+| [0256-paint-house](https://github.com/sushilrajeeva/Leetcode/tree/master/0256-paint-house) |
 | [0300-longest-increasing-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/sushilrajeeva/Leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0392-is-subsequence) |
