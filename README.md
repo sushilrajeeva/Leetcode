@@ -347,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/sushilrajeeva/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/sushilrajeeva/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/sushilrajeeva/Leetcode/tree/master/0224-basic-calculator) |
 | [0326-power-of-three](https://github.com/sushilrajeeva/Leetcode/tree/master/0326-power-of-three) |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0032-longest-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/0053-maximum-subarray) |
 | [0091-decode-ways](https://github.com/sushilrajeeva/Leetcode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/sushilrajeeva/Leetcode/tree/master/0118-pascals-triangle) |
@@ -649,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/sushilrajeeva/Leetcode/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -829,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/sushilrajeeva/Leetcode/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0076-minimum-window-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/sushilrajeeva/Leetcode/tree/master/0091-decode-ways) |
