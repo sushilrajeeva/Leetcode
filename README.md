@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1074-high-five](https://github.com/sushilrajeeva/Leetcode/tree/master/1074-high-five) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/sushilrajeeva/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sushilrajeeva/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1585-the-kth-factor-of-n](https://github.com/sushilrajeeva/Leetcode/tree/master/1585-the-kth-factor-of-n) |
