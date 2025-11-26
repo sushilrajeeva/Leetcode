@@ -350,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Linked List
 |  |
