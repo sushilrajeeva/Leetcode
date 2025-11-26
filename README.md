@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0474-ones-and-zeroes](https://github.com/sushilrajeeva/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
+| [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
 | [0496-next-greater-element-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/sushilrajeeva/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/sushilrajeeva/Leetcode/tree/master/0200-number-of-islands) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/sushilrajeeva/Leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0348-design-tic-tac-toe](https://github.com/sushilrajeeva/Leetcode/tree/master/0348-design-tic-tac-toe) |
+| [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/sushilrajeeva/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
@@ -512,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
+| [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
 | [0543-diameter-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
@@ -563,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/sushilrajeeva/Leetcode/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
+| [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/sushilrajeeva/Leetcode/tree/master/0617-merge-two-binary-trees) |
