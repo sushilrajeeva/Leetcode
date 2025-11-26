@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/sushilrajeeva/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0029-divide-two-integers) |
 | [0066-plus-one](https://github.com/sushilrajeeva/Leetcode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/sushilrajeeva/Leetcode/tree/master/0069-sqrtx) |
 | [0166-fraction-to-recurring-decimal](https://github.com/sushilrajeeva/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
@@ -810,6 +811,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/sushilrajeeva/Leetcode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/sushilrajeeva/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0268-missing-number) |
