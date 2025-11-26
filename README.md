@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sushilrajeeva/Leetcode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/sushilrajeeva/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/sushilrajeeva/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/sushilrajeeva/Leetcode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/sushilrajeeva/Leetcode/tree/master/0051-n-queens) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/sushilrajeeva/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/sushilrajeeva/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/sushilrajeeva/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/sushilrajeeva/Leetcode/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sushilrajeeva/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/sushilrajeeva/Leetcode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0079-word-search) |
@@ -970,6 +973,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/sushilrajeeva/Leetcode/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/sushilrajeeva/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/sushilrajeeva/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0079-word-search) |
