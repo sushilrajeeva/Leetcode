@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
 | [0496-next-greater-element-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/sushilrajeeva/Leetcode/tree/master/0498-diagonal-traverse) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0503-next-greater-element-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [0518-coin-change-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0518-coin-change-ii) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0348-design-tic-tac-toe](https://github.com/sushilrajeeva/Leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/sushilrajeeva/Leetcode/tree/master/0498-diagonal-traverse) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/sushilrajeeva/Leetcode/tree/master/0695-max-area-of-island) |
@@ -517,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [0543-diameter-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0545-boundary-of-binary-tree) |
@@ -570,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0490-the-maze](https://github.com/sushilrajeeva/Leetcode/tree/master/0490-the-maze) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
@@ -777,6 +781,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/sushilrajeeva/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
@@ -904,6 +909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/sushilrajeeva/Leetcode/tree/master/0443-string-compression) |
 | [0471-encode-string-with-shortest-length](https://github.com/sushilrajeeva/Leetcode/tree/master/0471-encode-string-with-shortest-length) |
 | [0474-ones-and-zeroes](https://github.com/sushilrajeeva/Leetcode/tree/master/0474-ones-and-zeroes) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0567-permutation-in-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0567-permutation-in-string) |
 | [0657-robot-return-to-origin](https://github.com/sushilrajeeva/Leetcode/tree/master/0657-robot-return-to-origin) |
@@ -944,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0261-graph-valid-tree) |
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/sushilrajeeva/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/sushilrajeeva/Leetcode/tree/master/0684-redundant-connection) |
@@ -958,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
+| [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
