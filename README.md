@@ -582,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0261-graph-valid-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/sushilrajeeva/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/sushilrajeeva/Leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/sushilrajeeva/Leetcode/tree/master/0322-coin-change) |
@@ -925,6 +926,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/sushilrajeeva/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/sushilrajeeva/Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/sushilrajeeva/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0345-reverse-vowels-of-a-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/sushilrajeeva/Leetcode/tree/master/0383-ransom-note) |
@@ -973,6 +975,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/sushilrajeeva/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0140-word-break-ii) |
 | [0257-binary-tree-paths](https://github.com/sushilrajeeva/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0301-remove-invalid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0301-remove-invalid-parentheses) |
 ## Graph
 |  |
 | ------- |
