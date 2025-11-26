@@ -945,6 +945,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2389-design-a-text-editor](https://github.com/sushilrajeeva/Leetcode/tree/master/2389-design-a-text-editor) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -1138,6 +1139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0694-number-of-distinct-islands](https://github.com/sushilrajeeva/Leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0817-design-hashmap](https://github.com/sushilrajeeva/Leetcode/tree/master/0817-design-hashmap) |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3036-number-of-subarrays-that-match-a-pattern-ii) |
 ## Line Sweep
 |  |
@@ -1172,9 +1174,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3036-number-of-subarrays-that-match-a-pattern-ii) |
 ## String Matching
 |  |
 | ------- |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3036-number-of-subarrays-that-match-a-pattern-ii) |
 <!---LeetCode Topics End-->
