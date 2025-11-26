@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/sushilrajeeva/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [3086-minimum-moves-to-pick-k-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/3086-minimum-moves-to-pick-k-ones) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sushilrajeeva/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -714,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2330-maximum-total-beauty-of-the-gardens](https://github.com/sushilrajeeva/Leetcode/tree/master/2330-maximum-total-beauty-of-the-gardens) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/sushilrajeeva/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3086-minimum-moves-to-pick-k-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/3086-minimum-moves-to-pick-k-ones) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Sorting
@@ -770,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/sushilrajeeva/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3086-minimum-moves-to-pick-k-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/3086-minimum-moves-to-pick-k-ones) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sushilrajeeva/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -1073,6 +1076,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/sushilrajeeva/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2625-increment-submatrices-by-one](https://github.com/sushilrajeeva/Leetcode/tree/master/2625-increment-submatrices-by-one) |
+| [3086-minimum-moves-to-pick-k-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/3086-minimum-moves-to-pick-k-ones) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/sushilrajeeva/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
