@@ -338,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2288-count-operations-to-obtain-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2610-closest-prime-numbers-in-range](https://github.com/sushilrajeeva/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
+| [3001-minimum-moves-to-capture-the-queen](https://github.com/sushilrajeeva/Leetcode/tree/master/3001-minimum-moves-to-capture-the-queen) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -1094,6 +1095,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1656-count-good-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/1656-count-good-triplets) |
 | [2330-maximum-total-beauty-of-the-gardens](https://github.com/sushilrajeeva/Leetcode/tree/master/2330-maximum-total-beauty-of-the-gardens) |
+| [3001-minimum-moves-to-capture-the-queen](https://github.com/sushilrajeeva/Leetcode/tree/master/3001-minimum-moves-to-capture-the-queen) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Binary Indexed Tree
 |  |
