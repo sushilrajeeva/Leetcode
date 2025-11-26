@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/sushilrajeeva/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [3030-find-the-grid-of-region-average](https://github.com/sushilrajeeva/Leetcode/tree/master/3030-find-the-grid-of-region-average) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3036-number-of-subarrays-that-match-a-pattern-ii) |
 | [3086-minimum-moves-to-pick-k-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/3086-minimum-moves-to-pick-k-ones) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/sushilrajeeva/Leetcode/tree/master/2625-increment-submatrices-by-one) |
+| [3030-find-the-grid-of-region-average](https://github.com/sushilrajeeva/Leetcode/tree/master/3030-find-the-grid-of-region-average) |
 ## Math
 |  |
 | ------- |
