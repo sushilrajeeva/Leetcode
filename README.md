@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/sushilrajeeva/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/sushilrajeeva/Leetcode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/sushilrajeeva/Leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/sushilrajeeva/Leetcode/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/sushilrajeeva/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0140-word-break-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -720,6 +721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/sushilrajeeva/Leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/sushilrajeeva/Leetcode/tree/master/0135-candy) |
 | [0253-meeting-rooms-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0316-remove-duplicate-letters](https://github.com/sushilrajeeva/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0611-valid-triangle-number](https://github.com/sushilrajeeva/Leetcode/tree/master/0611-valid-triangle-number) |
