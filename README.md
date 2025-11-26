@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sushilrajeeva/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/sushilrajeeva/Leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0825-max-increase-to-keep-city-skyline](https://github.com/sushilrajeeva/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
 | [1036-rotting-oranges](https://github.com/sushilrajeeva/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -610,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/sushilrajeeva/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sushilrajeeva/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/sushilrajeeva/Leetcode/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/sushilrajeeva/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
@@ -811,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1074-high-five](https://github.com/sushilrajeeva/Leetcode/tree/master/1074-high-five) |
 | [1127-last-stone-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/1127-last-stone-weight) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sushilrajeeva/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -989,6 +993,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/sushilrajeeva/Leetcode/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/sushilrajeeva/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sushilrajeeva/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/sushilrajeeva/Leetcode/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/sushilrajeeva/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
@@ -1000,6 +1005,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/sushilrajeeva/Leetcode/tree/master/0399-evaluate-division) |
 | [0499-the-maze-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Design
