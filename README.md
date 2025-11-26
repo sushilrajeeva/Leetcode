@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/sushilrajeeva/Leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/sushilrajeeva/Leetcode/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/sushilrajeeva/Leetcode/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/sushilrajeeva/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/sushilrajeeva/Leetcode/tree/master/0078-subsets) |
@@ -901,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/sushilrajeeva/Leetcode/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/sushilrajeeva/Leetcode/tree/master/0044-wildcard-matching) |
+| [0068-text-justification](https://github.com/sushilrajeeva/Leetcode/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/sushilrajeeva/Leetcode/tree/master/0079-word-search) |
 | [0087-scramble-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0087-scramble-string) |
@@ -1046,6 +1048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/sushilrajeeva/Leetcode/tree/master/0068-text-justification) |
 | [0348-design-tic-tac-toe](https://github.com/sushilrajeeva/Leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0415-add-strings](https://github.com/sushilrajeeva/Leetcode/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/sushilrajeeva/Leetcode/tree/master/0498-diagonal-traverse) |
