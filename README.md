@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3430-count-days-without-meetings](https://github.com/sushilrajeeva/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/sushilrajeeva/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3583-count-special-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/sushilrajeeva/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3583-count-special-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sushilrajeeva/Leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -911,6 +913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
+| [3583-count-special-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/3583-count-special-triplets) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
 ## String
 |  |
