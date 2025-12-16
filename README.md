@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3430-count-days-without-meetings](https://github.com/sushilrajeeva/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/sushilrajeeva/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3583-count-special-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3606-coupon-code-validator](https://github.com/sushilrajeeva/Leetcode/tree/master/3606-coupon-code-validator) |
@@ -469,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Tree
 |  |
 | ------- |
@@ -519,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2384-root-equals-sum-of-children](https://github.com/sushilrajeeva/Leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/sushilrajeeva/Leetcode/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
 ## Depth-First Search
 |  |
@@ -581,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2416-evaluate-boolean-binary-tree](https://github.com/sushilrajeeva/Leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/sushilrajeeva/Leetcode/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/sushilrajeeva/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
 | [3863-power-grid-maintenance](https://github.com/sushilrajeeva/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
