@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/sushilrajeeva/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/1656-count-good-triplets) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1975-maximum-matrix-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1975-maximum-matrix-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -772,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sushilrajeeva/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1975-maximum-matrix-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2330-maximum-total-beauty-of-the-gardens](https://github.com/sushilrajeeva/Leetcode/tree/master/2330-maximum-total-beauty-of-the-gardens) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/sushilrajeeva/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
