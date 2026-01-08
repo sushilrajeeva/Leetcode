@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/1656-count-good-triplets) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1975-maximum-matrix-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1975-maximum-matrix-sum) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/sushilrajeeva/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2280-count-good-triplets-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2330-maximum-total-beauty-of-the-gardens](https://github.com/sushilrajeeva/Leetcode/tree/master/2330-maximum-total-beauty-of-the-gardens) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -758,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2330-maximum-total-beauty-of-the-gardens](https://github.com/sushilrajeeva/Leetcode/tree/master/2330-maximum-total-beauty-of-the-gardens) |
 ## Greedy
 |  |
@@ -926,6 +930,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/sushilrajeeva/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0756-pyramid-transition-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -1219,6 +1224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0716-max-stack](https://github.com/sushilrajeeva/Leetcode/tree/master/0716-max-stack) |
 | [0729-my-calendar-i](https://github.com/sushilrajeeva/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0731-my-calendar-ii) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2280-count-good-triplets-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3863-power-grid-maintenance](https://github.com/sushilrajeeva/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Monotonic Stack
@@ -1254,6 +1260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 |  |
 | ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Combinatorics
 |  |
