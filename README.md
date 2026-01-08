@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/sushilrajeeva/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3743-maximize-cyclic-partition-score](https://github.com/sushilrajeeva/Leetcode/tree/master/3743-maximize-cyclic-partition-score) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/sushilrajeeva/Leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/sushilrajeeva/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3863-power-grid-maintenance](https://github.com/sushilrajeeva/Leetcode/tree/master/3863-power-grid-maintenance) |
@@ -512,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sushilrajeeva/Leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
+| [3743-maximize-cyclic-partition-score](https://github.com/sushilrajeeva/Leetcode/tree/master/3743-maximize-cyclic-partition-score) |
 ## Tree
 |  |
 | ------- |
