@@ -1,10 +1,13 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        complement = dict()
+        seen = dict()
         for index, num in enumerate(nums):
-            if num in complement:
-                return [complement[num], index]
+            key = target - num
+            if key in seen:
+                return [seen[key], index]
             else:
-                complement[target-num] = index
+                seen[num] = index
+                
         return [-1, -1]
+                
         
