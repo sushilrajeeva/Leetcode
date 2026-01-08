@@ -438,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/sushilrajeeva/Leetcode/tree/master/0224-basic-calculator) |
 | [0326-power-of-three](https://github.com/sushilrajeeva/Leetcode/tree/master/0326-power-of-three) |
 | [0394-decode-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0394-decode-string) |
+| [0761-special-binary-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0761-special-binary-string) |
 | [2050-count-good-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -1032,6 +1033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0756-pyramid-transition-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0756-pyramid-transition-matrix) |
+| [0761-special-binary-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0761-special-binary-string) |
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
 | [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
