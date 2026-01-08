@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/sushilrajeeva/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
@@ -488,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0542-01-matrix) |
 | [0746-min-cost-climbing-stairs](https://github.com/sushilrajeeva/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/sushilrajeeva/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1025-minimum-cost-for-tickets](https://github.com/sushilrajeeva/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/sushilrajeeva/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
@@ -786,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/sushilrajeeva/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/sushilrajeeva/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -883,6 +886,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/sushilrajeeva/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
 | [0794-swim-in-rising-water](https://github.com/sushilrajeeva/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/sushilrajeeva/Leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1074-high-five](https://github.com/sushilrajeeva/Leetcode/tree/master/1074-high-five) |
 | [1127-last-stone-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/1127-last-stone-weight) |
