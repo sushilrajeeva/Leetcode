@@ -409,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3416-subsequences-with-a-unique-middle-mode-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3416-subsequences-with-a-unique-middle-mode-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3704-count-no-zero-pairs-that-sum-to-n](https://github.com/sushilrajeeva/Leetcode/tree/master/3704-count-no-zero-pairs-that-sum-to-n) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sushilrajeeva/Leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
+| [3704-count-no-zero-pairs-that-sum-to-n](https://github.com/sushilrajeeva/Leetcode/tree/master/3704-count-no-zero-pairs-that-sum-to-n) |
 | [3743-maximize-cyclic-partition-score](https://github.com/sushilrajeeva/Leetcode/tree/master/3743-maximize-cyclic-partition-score) |
 ## Tree
 |  |
