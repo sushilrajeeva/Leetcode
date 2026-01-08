@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0825-max-increase-to-keep-city-skyline](https://github.com/sushilrajeeva/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
 | [0830-largest-triangle-area](https://github.com/sushilrajeeva/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/0840-magic-squares-in-grid) |
+| [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 | [0859-design-circular-deque](https://github.com/sushilrajeeva/Leetcode/tree/master/0859-design-circular-deque) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/sushilrajeeva/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/0840-magic-squares-in-grid) |
+| [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sushilrajeeva/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -723,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0278-first-bad-version](https://github.com/sushilrajeeva/Leetcode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/sushilrajeeva/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
+| [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 ## Two Pointers
 |  |
 | ------- |
@@ -1023,6 +1026,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0756-pyramid-transition-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
 | [0822-unique-morse-code-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0822-unique-morse-code-words) |
+| [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sushilrajeeva/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-longest-duplicate-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/1044-longest-duplicate-substring) |
@@ -1297,4 +1301,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1044-longest-duplicate-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/1044-longest-duplicate-substring) |
+## Game Theory
+|  |
+| ------- |
+| [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 <!---LeetCode Topics End-->
