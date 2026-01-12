@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-high-five](https://github.com/sushilrajeeva/Leetcode/tree/master/1074-high-five) |
 | [1127-last-stone-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/1127-last-stone-weight) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1266-minimum-time-visiting-all-points](https://github.com/sushilrajeeva/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/sushilrajeeva/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1333-sort-the-jumbled-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
 | [0912-random-pick-with-weight](https://github.com/sushilrajeeva/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1266-minimum-time-visiting-all-points](https://github.com/sushilrajeeva/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sushilrajeeva/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sushilrajeeva/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1585-the-kth-factor-of-n](https://github.com/sushilrajeeva/Leetcode/tree/master/1585-the-kth-factor-of-n) |
@@ -1312,6 +1314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/sushilrajeeva/Leetcode/tree/master/0830-largest-triangle-area) |
+| [1266-minimum-time-visiting-all-points](https://github.com/sushilrajeeva/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 ## Memoization
 |  |
 | ------- |
