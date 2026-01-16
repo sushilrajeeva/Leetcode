@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/sushilrajeeva/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sushilrajeeva/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3030-find-the-grid-of-region-average](https://github.com/sushilrajeeva/Leetcode/tree/master/3030-find-the-grid-of-region-average) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3036-number-of-subarrays-that-match-a-pattern-ii) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2402-meeting-rooms-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sushilrajeeva/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3416-subsequences-with-a-unique-middle-mode-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3416-subsequences-with-a-unique-middle-mode-ii) |
@@ -1248,6 +1250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1656-count-good-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/1656-count-good-triplets) |
 | [2330-maximum-total-beauty-of-the-gardens](https://github.com/sushilrajeeva/Leetcode/tree/master/2330-maximum-total-beauty-of-the-gardens) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sushilrajeeva/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3001-minimum-moves-to-capture-the-queen](https://github.com/sushilrajeeva/Leetcode/tree/master/3001-minimum-moves-to-capture-the-queen) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Binary Indexed Tree
