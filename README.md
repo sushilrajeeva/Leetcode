@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/sushilrajeeva/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2402-meeting-rooms-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/2402-meeting-rooms-iii) |
+| [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sushilrajeeva/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2288-count-operations-to-obtain-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
+| [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
 | [2610-closest-prime-numbers-in-range](https://github.com/sushilrajeeva/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3001-minimum-moves-to-capture-the-queen](https://github.com/sushilrajeeva/Leetcode/tree/master/3001-minimum-moves-to-capture-the-queen) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -1002,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/0948-sort-an-array) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3583-count-special-triplets](https://github.com/sushilrajeeva/Leetcode/tree/master/3583-count-special-triplets) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
@@ -1076,6 +1079,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2389-design-a-text-editor](https://github.com/sushilrajeeva/Leetcode/tree/master/2389-design-a-text-editor) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
 | [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1313,6 +1317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
 | [3416-subsequences-with-a-unique-middle-mode-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3416-subsequences-with-a-unique-middle-mode-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Geometry
