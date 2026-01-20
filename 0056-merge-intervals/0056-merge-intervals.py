@@ -6,7 +6,7 @@ class Solution:
 
         mergeList: List[List[int]] = []
 
-        intervals.sort()
+        intervals.sort(key = lambda x: x[0])
 
         start, end = intervals[0]
 
