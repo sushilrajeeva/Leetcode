@@ -10,7 +10,7 @@ class Solution:
                     output = cur + " " + output
                 cur = ""
             else:
-                cur += s[i]
+                    cur += s[i]
         output = cur + " " + output
         return output.strip()
         
