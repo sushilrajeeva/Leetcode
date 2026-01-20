@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/sushilrajeeva/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sushilrajeeva/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/sushilrajeeva/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3416-subsequences-with-a-unique-middle-mode-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3416-subsequences-with-a-unique-middle-mode-ii) |
@@ -976,6 +977,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Merge Sort
