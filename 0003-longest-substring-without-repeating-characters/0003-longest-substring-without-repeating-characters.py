@@ -5,17 +5,17 @@ class Solution:
         right: int = 0
         maxLen: int = 0
             
-        seen = set()
+        seen = [0] * 128
         
         n: int = len(s)
             
         while right < n:
             ele = s[right]
-            if ele not in seen:
-                seen.add(ele)
+            if seen[ord(ele)] == 0:
+                seen[ord(ele)] = 1
                 right += 1
             else:
-                seen.remove(s[left])
+                seen[ord(s[left])] = 0
                 left += 1
             maxLen = max(maxLen, right - left)
             
