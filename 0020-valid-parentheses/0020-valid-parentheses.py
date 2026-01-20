@@ -16,5 +16,5 @@ class Solution:
                     return False
                 stack.pop()
 
-        return True if len(stack) == 0 else False
+        return not stack
         
