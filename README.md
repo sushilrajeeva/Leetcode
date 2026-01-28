@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3643-zero-array-transformation-ii) |
+| [3651-minimum-cost-path-with-teleportations](https://github.com/sushilrajeeva/Leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/sushilrajeeva/Leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/sushilrajeeva/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3715-sum-of-perfect-square-ancestors](https://github.com/sushilrajeeva/Leetcode/tree/master/3715-sum-of-perfect-square-ancestors) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/sushilrajeeva/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [3030-find-the-grid-of-region-average](https://github.com/sushilrajeeva/Leetcode/tree/master/3030-find-the-grid-of-region-average) |
+| [3651-minimum-cost-path-with-teleportations](https://github.com/sushilrajeeva/Leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
 ## Math
 |  |
 | ------- |
@@ -535,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sushilrajeeva/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sushilrajeeva/Leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
+| [3651-minimum-cost-path-with-teleportations](https://github.com/sushilrajeeva/Leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3704-count-no-zero-pairs-that-sum-to-n](https://github.com/sushilrajeeva/Leetcode/tree/master/3704-count-no-zero-pairs-that-sum-to-n) |
 | [3743-maximize-cyclic-partition-score](https://github.com/sushilrajeeva/Leetcode/tree/master/3743-maximize-cyclic-partition-score) |
 ## Tree
