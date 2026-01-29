@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2626-count-the-number-of-good-subarrays](https://github.com/sushilrajeeva/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sushilrajeeva/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3030-find-the-grid-of-region-average](https://github.com/sushilrajeeva/Leetcode/tree/master/3030-find-the-grid-of-region-average) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3036-number-of-subarrays-that-match-a-pattern-ii) |
@@ -1094,6 +1095,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2389-design-a-text-editor](https://github.com/sushilrajeeva/Leetcode/tree/master/2389-design-a-text-editor) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1143,6 +1145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0505-the-maze-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0505-the-maze-ii) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Design
 |  |
@@ -1367,4 +1370,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0843-guess-the-word](https://github.com/sushilrajeeva/Leetcode/tree/master/0843-guess-the-word) |
+## Graph Theory
+|  |
+| ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 <!---LeetCode Topics End-->
