@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2665-minimum-time-to-repair-cars](https://github.com/sushilrajeeva/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sushilrajeeva/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3030-find-the-grid-of-region-average](https://github.com/sushilrajeeva/Leetcode/tree/master/3030-find-the-grid-of-region-average) |
@@ -538,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
@@ -1104,6 +1106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2514-count-anagrams](https://github.com/sushilrajeeva/Leetcode/tree/master/2514-count-anagrams) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3035-maximum-palindromes-after-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/3035-maximum-palindromes-after-operations) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1154,6 +1157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilrajeeva/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Design
 |  |
@@ -1235,6 +1239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/sushilrajeeva/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0140-word-break-ii) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -1383,4 +1388,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sushilrajeeva/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 <!---LeetCode Topics End-->
