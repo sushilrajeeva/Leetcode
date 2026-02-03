@@ -19,7 +19,6 @@ class Solution:
             isIncreasing = self.isIncreasing(x, y)
             isSame = self.isSame(x, y)
             if isSame: return False
-            print("i", i, "isIncrasing", isIncreasing)
             if not first:
                 if not isIncreasing: return False
                 first = True
