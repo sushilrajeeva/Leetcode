@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3743-maximize-cyclic-partition-score](https://github.com/sushilrajeeva/Leetcode/tree/master/3743-maximize-cyclic-partition-score) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/sushilrajeeva/Leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/sushilrajeeva/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3830-longest-alternating-subarray-after-removing-at-most-one-element](https://github.com/sushilrajeeva/Leetcode/tree/master/3830-longest-alternating-subarray-after-removing-at-most-one-element) |
 | [3863-power-grid-maintenance](https://github.com/sushilrajeeva/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
 |  |
@@ -552,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-minimum-cost-path-with-teleportations](https://github.com/sushilrajeeva/Leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3704-count-no-zero-pairs-that-sum-to-n](https://github.com/sushilrajeeva/Leetcode/tree/master/3704-count-no-zero-pairs-that-sum-to-n) |
 | [3743-maximize-cyclic-partition-score](https://github.com/sushilrajeeva/Leetcode/tree/master/3743-maximize-cyclic-partition-score) |
+| [3830-longest-alternating-subarray-after-removing-at-most-one-element](https://github.com/sushilrajeeva/Leetcode/tree/master/3830-longest-alternating-subarray-after-removing-at-most-one-element) |
 ## Tree
 |  |
 | ------- |
@@ -1298,6 +1300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-minimum-moves-to-capture-the-queen](https://github.com/sushilrajeeva/Leetcode/tree/master/3001-minimum-moves-to-capture-the-queen) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/sushilrajeeva/Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3830-longest-alternating-subarray-after-removing-at-most-one-element](https://github.com/sushilrajeeva/Leetcode/tree/master/3830-longest-alternating-subarray-after-removing-at-most-one-element) |
 ## Binary Indexed Tree
 |  |
 | ------- |
