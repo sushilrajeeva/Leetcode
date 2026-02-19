@@ -821,6 +821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/sushilrajeeva/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0696-count-binary-substrings](https://github.com/sushilrajeeva/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0941-sort-array-by-parity](https://github.com/sushilrajeeva/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1028-interval-list-intersections](https://github.com/sushilrajeeva/Leetcode/tree/master/1028-interval-list-intersections) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -1104,6 +1105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/sushilrajeeva/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [0680-valid-palindrome-ii](https://github.com/sushilrajeeva/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/sushilrajeeva/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0696-count-binary-substrings](https://github.com/sushilrajeeva/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0756-pyramid-transition-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [0761-special-binary-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0761-special-binary-string) |
 | [0778-reorganize-string](https://github.com/sushilrajeeva/Leetcode/tree/master/0778-reorganize-string) |
