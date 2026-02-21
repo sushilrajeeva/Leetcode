@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2176-count-equal-and-divisible-pairs-in-an-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2176-count-equal-and-divisible-pairs-in-an-array) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2249-count-the-hidden-sequences](https://github.com/sushilrajeeva/Leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/sushilrajeeva/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
