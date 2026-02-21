@@ -413,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/sushilrajeeva/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0633-sum-of-square-numbers](https://github.com/sushilrajeeva/Leetcode/tree/master/0633-sum-of-square-numbers) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/sushilrajeeva/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0797-rabbits-in-forest](https://github.com/sushilrajeeva/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/sushilrajeeva/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/sushilrajeeva/Leetcode/tree/master/0840-magic-squares-in-grid) |
@@ -1011,6 +1012,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0401-binary-watch](https://github.com/sushilrajeeva/Leetcode/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/sushilrajeeva/Leetcode/tree/master/0693-binary-number-with-alternating-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/sushilrajeeva/Leetcode/tree/master/0756-pyramid-transition-matrix) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/sushilrajeeva/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sushilrajeeva/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
