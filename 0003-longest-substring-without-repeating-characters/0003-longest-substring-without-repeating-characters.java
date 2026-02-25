@@ -5,18 +5,18 @@ class Solution {
         int right = 0;
         int maxLen = 0;
 
-        int[] seen = new int[128];
+        Map<Character, Integer> seen = new HashMap<>();
 
         int n = s.length();
 
         while (right < n) {
             char end = s.charAt(right);
-            if (seen[(int)end] == 0) {
-                seen[(int)end] = 1;
+            if (seen.getOrDefault(end, 0) == 0) {
+                seen.put(end, 1);
                 right += 1;
             } else {
                 char start = s.charAt(left);
-                seen[(int)start] = 0;
+                seen.put(start, 0);
                 left += 1;
             }
 
