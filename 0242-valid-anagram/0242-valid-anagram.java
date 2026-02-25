@@ -17,10 +17,6 @@ class Solution {
             tMap.put(k2, tMap.getOrDefault(k2, 0) + 1);
         }
 
-        int s_len = sMap.size();
-        int t_len = tMap.size();
-
-        if (s_len != t_len) return false;
 
         return sMap.equals(tMap);
         
