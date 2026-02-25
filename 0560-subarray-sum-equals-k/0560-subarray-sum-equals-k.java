@@ -4,20 +4,17 @@ class Solution {
         int count = 0;
         int currentSum = 0;
 
-        HashMap<Integer, Integer> prefixSumCount = new HashMap<>();
-        prefixSumCount.put(0, 1);
+        HashMap<Integer, Integer> sumDict = new HashMap<>();
+        sumDict.put(0, 1);
 
-        for (int num : nums) {
+        for (Integer num: nums) {
             currentSum += num;
-            int target = currentSum - k;
-            if (prefixSumCount.containsKey(target)) {
-                count += prefixSumCount.get(target);
+
+            if (sumDict.containsKey(currentSum - k)) {
+                count += sumDict.get(currentSum - k);
             }
-            int value = 1;
-            if (prefixSumCount.containsKey(currentSum)) {
-                value += prefixSumCount.get(currentSum);
-            }
-            prefixSumCount.put(currentSum, value);
+
+            sumDict.put(currentSum, sumDict.getOrDefault(currentSum, 0) + 1);
         }
 
         return count;
