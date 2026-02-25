@@ -6,19 +6,27 @@ class Solution {
 
         if (l1 != l2) return false;
 
-        Map<Character, Integer> sMap = new HashMap<>();
-        Map<Character, Integer> tMap = new HashMap<>();
+        Map<Character, Integer> mapp = new HashMap<>();
 
         for (int i = 0; i<l1; i++) {
             Character k1 = s.charAt(i);
-            Character k2 = t.charAt(i);
 
-            sMap.put(k1, sMap.getOrDefault(k1, 0) + 1);
-            tMap.put(k2, tMap.getOrDefault(k2, 0) + 1);
+            mapp.put(k1, mapp.getOrDefault(k1, 0) + 1);
         }
 
+        for (int i = 0; i<l2; i++) {
+            Character k2 = t.charAt(i);
+            if (!mapp.containsKey(k2)) return false;
 
-        return sMap.equals(tMap);
+            mapp.put(k2, mapp.get(k2) - 1);
+
+        }
+
+        for (Map.Entry<Character, Integer> entry: mapp.entrySet()) {
+            if (entry.getValue() != 0) return false;
+        }
+
+        return true;
         
     }
 }
