@@ -89,7 +89,7 @@ class LRUCache {
         this.cache.put(key, node);
         this.moveToEnd(node);
 
-        while (this.cache.size() > this.capacity) {
+        if (this.cache.size() > this.capacity) {
             Node lruNode = this.head.getNextNode();
             this.rewirePointers(lruNode);
             this.cache.remove(lruNode.getKey());
