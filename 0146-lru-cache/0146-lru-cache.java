@@ -1,70 +1,46 @@
 class Node {
-        private int key;
-        private int value;
-        private Node previous;
-        private Node next;
-        
-        Node(int key, int value) {
-            this.key = key;
-            this.value = value;
-        }
 
-        public int getKey() {
-            return this.key;
-        }
+    private int key;
+    private int value;
+    private Node previous;
+    private Node next;
 
-        public int getValue() {
-            return this.value;
-        }
-
-        public void setKey(int key) {
-            this.key = key;
-        }
-        public void setValue(int value) {
-            this.value = value;
-        }
-
-        public Node getPreviousNode() {
-            return this.previous;
-        }
-        
-        public Node getNextNode() {
-            return this.next;
-        }
-
-        public void setPreviousNode(Node node) {
-            this.previous = node;
-        }
-
-        public void setNextNode(Node node) {
-            this.next = node;
-        }
+    Node(int key, int value) {
+        this.key = key;
+        this.value = value;
     }
+
+    public int getKey() {return this.key;}
+    public int getValue() {return this.value;}
+    public void setKey(int key) {this.key = key;}
+    public void setValue(int value) {this.value = value;}
+    public Node getPreviousNode() {return this.previous;}
+    public Node getNextNode() {return this.next;}
+    public void setPreviousNode(Node previous) {this.previous = previous;}
+    public void setNextNode(Node next) {this.next = next;}
+
+}
 
 class LRUCache {
 
-    private final int capacity;
-    private final Map<Integer, Node> cache;
-    private final Node head;
-    private final Node tail;
-
-    
+    private int capacity;
+    private Node head;
+    private Node tail;
+    private Map<Integer, Node> cache;
 
     public LRUCache(int capacity) {
 
         this.capacity = capacity;
-
         this.cache = new HashMap<>();
         this.head = new Node(-1, -1);
         this.tail = new Node(-1, -1);
 
-        this.head.setNextNode(tail);
-        this.tail.setPreviousNode(head);
+        this.head.setNextNode(this.tail);
+        this.tail.setPreviousNode(this.head);
         
     }
 
-    public void moveToEnd(Node node) {
-
+    private void moveToEnd(Node node) {
         Node lastNode = this.tail.getPreviousNode();
 
         lastNode.setNextNode(node);
@@ -74,26 +50,22 @@ class LRUCache {
         this.tail.setPreviousNode(node);
     }
 
-    public void rewirePointers(Node node) {
-        
-        Node before = node.getPreviousNode();
-        Node after = node.getNextNode();
+    private void rewirePointers(Node node) {
+        Node leftNode = node.getPreviousNode();
+        Node rightNode = node.getNextNode();
 
-        before.setNextNode(after);
-        after.setPreviousNode(before);
+        leftNode.setNextNode(rightNode);
+        rightNode.setPreviousNode(leftNode);
 
-        node.setPreviousNode(null);
         node.setNextNode(null);
-
+        node.setPreviousNode(null);
     }
     
     public int get(int key) {
 
-        if (!this.cache.containsKey(key)) {
-            return -1;
-        }
-
         Node node = this.cache.get(key);
+        if (node == null) {return -1;}
+
         int value = node.getValue();
 
         this.rewirePointers(node);
@@ -105,13 +77,13 @@ class LRUCache {
     
     public void put(int key, int value) {
 
-        Node node = null;
-        if (this.cache.containsKey(key)) {
-            node = this.cache.get(key);
+        Node node = this.cache.get(key);
+
+        if (node == null) {
+            node = new Node(key, value);
+        } else {
             node.setValue(value);
             this.rewirePointers(node);
-        } else {
-            node = new Node(key, value);
         }
 
         this.cache.put(key, node);
@@ -122,6 +94,8 @@ class LRUCache {
             this.rewirePointers(lruNode);
             this.cache.remove(lruNode.getKey());
         }
+
+
         
     }
 }
