@@ -1138,6 +1138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sushilrajeeva/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1542-consecutive-characters](https://github.com/sushilrajeeva/Leetcode/tree/master/1542-consecutive-characters) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/sushilrajeeva/Leetcode/tree/master/1636-number-of-substrings-with-only-1s) |
+| [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/sushilrajeeva/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
