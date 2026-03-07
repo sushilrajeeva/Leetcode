@@ -552,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/sushilrajeeva/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/sushilrajeeva/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sushilrajeeva/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sushilrajeeva/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilrajeeva/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/sushilrajeeva/Leetcode/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -934,6 +935,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/sushilrajeeva/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [1044-longest-duplicate-substring](https://github.com/sushilrajeeva/Leetcode/tree/master/1044-longest-duplicate-substring) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sushilrajeeva/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sushilrajeeva/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/sushilrajeeva/Leetcode/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sushilrajeeva/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sushilrajeeva/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -1139,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1542-consecutive-characters](https://github.com/sushilrajeeva/Leetcode/tree/master/1542-consecutive-characters) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/sushilrajeeva/Leetcode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/sushilrajeeva/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sushilrajeeva/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/sushilrajeeva/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sushilrajeeva/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sushilrajeeva/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
