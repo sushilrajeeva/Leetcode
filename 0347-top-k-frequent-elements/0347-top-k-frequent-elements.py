@@ -1,7 +1,6 @@
 import heapq
 from typing import *
 from collections import defaultdict
-import heapq
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
